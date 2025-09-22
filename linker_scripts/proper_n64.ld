@@ -21,8 +21,8 @@ SECTIONS
   /* Boot code */
   .boot 0x80001000 : AT(0x00001000)
   {
-    build/boot_minimal.o(.text)
-    build/boot_minimal.o(.rodata)
+    build/boot_complete.o(.text)
+    build/boot_complete.o(.rodata)
   }
 
   /* Main code */
@@ -36,6 +36,7 @@ SECTIONS
   .rodata 0x80200000 : AT(0x00080000)
   {
     build/battle.o(.rodata)
+    build/boot_complete.o(.rodata)
   }
 
   /* Fill remaining space */
