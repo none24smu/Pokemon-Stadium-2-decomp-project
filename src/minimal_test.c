@@ -1,13 +1,15 @@
 #include <n64.h>
 
-// Minimal N64 test - just show something on screen
+// Minimal N64 test - just jump to infinite loop
 void _start(void) {
-    // Simple infinite loop that should at least run
+    // Simple infinite loop using only valid N64 instructions
     while (1) {
-        // Just spin - if this runs, the ROM loads
-        volatile int i = 0;
-        for (i = 0; i < 1000000; i++) {
-            __asm__ volatile("nop");
-        }
+        // Just a simple nop loop
+        __asm__ volatile(
+            "nop\n\t"
+            "nop\n\t"
+            "nop\n\t"
+            "nop\n\t"
+        );
     }
 }
