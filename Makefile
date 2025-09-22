@@ -191,28 +191,15 @@ help:
 	@echo "  make split PROJECT_NAME=mario64"
 
 # ROM generation
-ROM_OBJS = $(BUILD_DIR)/boot.o $(BUILD_DIR)/main.o $(BUILD_DIR)/battle.o $(BUILD_DIR)/pokemon_names.o $(BUILD_DIR)/move_data_tables.o $(BUILD_DIR)/all_text_data.o $(BUILD_DIR)/move_names.o $(BUILD_DIR)/type_effectiveness_charts.o
 
 $(BUILD_DIR)/pokemon_stadium_2.elf: $(ROM_OBJS)
-$(MIPS_CC) -nostdlib -T linker_scripts/$(PROJECT_NAME).ld -o $@ $^
-
-$(BUILD_DIR)/pokemon_stadium_2.z64: $(BUILD_DIR)/pokemon_stadium_2.elf
-@echo "ROM generation requires additional tools (objcopy). Install binutils for N64 ROM generation."
-@echo "For now, the ELF file is the closest to a complete build."
-
-# ROM generation
-ROM_OBJS = $(BUILD_DIR)/boot.o $(BUILD_DIR)/main.o $(BUILD_DIR)/battle.o $(BUILD_DIR)/pokemon_names.o $(BUILD_DIR)/move_data_tables.o $(BUILD_DIR)/all_text_data.o $(BUILD_DIR)/move_names.o $(BUILD_DIR)/type_effectiveness_charts.o
-
-$(BUILD_DIR)/$(PROJECT_NAME).elf: $(ROM_OBJS)
-$(MIPS_CC) -nostdlib -T linker_scripts/$(PROJECT_NAME).ld -o $@ $^
-
-$(BUILD_DIR)/$(PROJECT_NAME).z64: $(BUILD_DIR)/$(PROJECT_NAME).elf
-@echo "ROM generation requires additional tools (objcopy). Install binutils for N64 ROM generation."
-@echo "For now, the ELF file is the closest to a complete build."
 
 # N64 ROM generation tools
 MIPS_OBJCOPY = mips64-linux-gnuabi64-objcopy
 MIPS_LD = mips64-linux-gnuabi64-ld
+
+$(BUILD_DIR)/$(PROJECT_NAME).elf: $(ROM_OBJS)
+ROM_OBJS = $(BUILD_DIR)/boot.o $(BUILD_DIR)/main.o $(BUILD_DIR)/pokemon_names.o
 
 $(BUILD_DIR)/$(PROJECT_NAME).z64: $(BUILD_DIR)/$(PROJECT_NAME).elf
 $(MIPS_OBJCOPY) -O binary $< $@
