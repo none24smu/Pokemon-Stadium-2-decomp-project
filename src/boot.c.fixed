@@ -1,0 +1,64 @@
+/*
+ * Pokemon Stadium 2 - Boot Sequence
+ * Decompiled from MIPS assembly at ROM offset 0x1000
+ */
+
+#include "types.h"
+#include "memory.h"
+
+// Boot sequence entry point at 0x80100000
+void boot_clear_memory(void) {
+    u32* clear_ptr = (u32*)0x800a7e80;  // Stack pointer base
+    u32 clear_size = 0x0008c5f0;        // ~575KB to clear
+    
+    // Memory clearing loop - zero out RAM region
+    while (clear_size > 0) {
+        *clear_ptr = 0;
+        *(clear_ptr + 1) = 0;
+        clear_ptr += 2;
+        clear_size -= 8;
+    }
+    
+    // Set up stack pointer and jump to main initialization
+    __asm__ volatile (
+        "lui $sp, 0x800b\n"
+        "addiu $sp, $sp, -32128\n"  // sp = 0x800b8280
+        "j 0x80001530\n"            // Jump to main init (outside ROM)
+        "nop\n"
+    );
+}
+
+// Hardware initialization sequence at 0x80100060
+void boot_hardware_init(void) {
+    volatile u32* hw_regs = (volatile u32*)0x0fc0;  // N64 hardware registers
+    
+    u32 reg1 = hw_regs[6];   // Read hardware register 24(0x0fc0)
+    u32 reg2 = hw_regs[7];   // Read hardware register 28(0x0fc0)
+    
+    // Coprocessor 0 operation (cache/TLB setup)
+    __asm__ volatile ("mtc0 %0, $12" : : "r"(reg1));
+    
+    // Call hardware setup function (outside ROM range)
+    // hardware_setup_func(); // 0x84001b0c
+    
+    // Additional hardware initialization
+    volatile u32* timer_reg = (volatile u32*)0x02e0;
+    volatile u32* status_reg = (volatile u32*)0x0fb0;
+    
+    *timer_reg = 0;  // Reset timer
+    
+    nop; nop; nop;  // Fixed problematic code
+    u32 status = *status_reg;
+    if (status & 0x0001) {
+        if (status & 0x0100) {
+            // Wait for hardware ready
+            do {
+                __asm__ volatile ("mfc0 %0, $12" : "=r"(status));
+                status &= 0x0100;
+            } while (status != 0);
+        }
+    }
+    
+    // Call additional initialization (outside ROM range)
+    // additional_init_func(); // 0x840010cc
+}

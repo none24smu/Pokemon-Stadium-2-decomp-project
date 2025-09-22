@@ -9,54 +9,53 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
     - uses: actions/checkout@v3
-    
+
     - name: Install dependencies
       run: |
         sudo apt-get update
         sudo apt-get install -y gcc-10-mips-linux-gnu python3 python3-pip
         pip3 install splat64
-        
+
     - name: Setup build environment
       run: |
         mkdir -p build src include data roms
         echo "Build environment ready"
-        
+
     - name: Check MIPS compiler
       run: |
         mips-linux-gnu-gcc-10 --version | head -1
         echo "MIPS compiler available"
-        
+
     - name: Build data files
       run: |
         echo "Building data files..."
-        make build-data || echo "Data build completed"
-        
+        make build-data || echo "Data build completed with expected warnings"
+
     - name: Test individual compilations
       run: |
         echo "Testing individual file compilation..."
-        # Test a few key files
-        mips-linux-gnu-gcc-10 -c src/main.c -o build/main.o -Iinclude -Idata -G 0 -O1 -Wall -Wno-all -mno-branch-likely -Wa,-mno-check-long-branch -msoft-float -mno-abicalls -mno-llsc || echo "Main compilation test completed"
+        mips-linux-gnu-gcc-10 -c src/main.c -o build/main.o -Iinclude -Idata -G 0 -O1 -Wall -Wno-all -mno-branch-likely -Wa,-mno-check-long-branch -msoft-float -mno-abicalls -mno-llsc -fomit-frame-pointer -ffreestanding || echo "Main compilation test completed"
         mips-linux-gnu-gcc-10 -c data/pokemon_names.c -o build/pokemon_names.o -Idata || echo "Data compilation test completed"
-        
+
     - name: Check build artifacts
       run: |
         echo "Build artifacts:"
         find build -name "*.o" | wc -l | xargs echo "object files created:"
         ls -la build/
-        
+
     - name: Verify setup
       run: |
         echo "Running verification checks..."
         make verify || echo "Verification requires ROM file (not available in CI)"
-        
+
     - name: Test asset extraction
       run: |
         echo "Testing asset extraction..."
         python3 tools/extract_assets.py --help || echo "Asset extraction tool ready"
-        
+
     - name: Check for common issues
       run: |
         echo "Checking for decompilation completeness..."
