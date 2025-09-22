@@ -1,5 +1,8 @@
 #include <n64.h>
 
+extern void battle_initialize(void);
+extern void battle_process_turn(void);
+
 // Simple N64 initialization
 void _start(void) {
     // Basic N64 setup
@@ -19,8 +22,23 @@ void boot_function(void) {
     // Initialize basic systems
     battle_initialize();
 
-    // Simple game loop
-    while (1) {
+    // Simple game loop with basic timing
+    volatile int frame_count = 0;
+    while (frame_count < 1000) {  // Limit to 1000 frames for testing
         battle_process_turn();
+
+        // Basic frame timing - simple busy wait
+        volatile int delay = 0;
+        for (delay = 0; delay < 100000; delay++) {
+            // Busy wait for frame timing
+        }
+
+        frame_count++;
+    }
+
+    // Infinite loop with proper exit - just hang for now
+    while (1) {
+        // Safe infinite loop
+        __asm__ volatile("nop");
     }
 }
