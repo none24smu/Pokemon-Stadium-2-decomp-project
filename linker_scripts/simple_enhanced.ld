@@ -1,4 +1,4 @@
-/* Proper N64 Linker Script */
+/* Simple Enhanced N64 Linker Script */
 OUTPUT_ARCH(mips)
 ENTRY(_start)
 
@@ -19,36 +19,17 @@ SECTIONS
     . += 24;          /* Pad to 64 bytes */
   }
 
-  /* Boot code */
+  /* All code and data together */
   . = 0x00001000;
-  .boot 0x80001000 : AT(0x00001000)
+  .rom : AT(0x00001000)
   {
     build/boot_complete.o(.text)
     build/boot_complete.o(.rodata)
-  }
-
-  /* Main code */
-  . = 0x80002000;
-  .text 0x80002000 : AT(0x00002000)
-  {
     build/battle.o(.text)
+    build/battle.o(.rodata)
     build/stubs.o(.text)
     build/game_systems.o(.text)
-  }
-
-  /* Read-only data */
-  . = 0x80200000;
-  .rodata 0x80200000 : AT(0x00080000)
-  {
-    build/battle.o(.rodata)
-    build/boot_complete.o(.rodata)
     build/game_systems.o(.rodata)
-  }
-
-  /* Read-write data - moved to avoid overlap */
-  . = 0x80400000;
-  .data 0x80400000 : AT(0x00100000)
-  {
     build/pokemon_names.o(.data)
     build/move_data_tables.o(.data)
     build/all_text_data.o(.data)
@@ -56,7 +37,7 @@ SECTIONS
     build/type_effectiveness_charts.o(.data)
   }
 
-  /* Fill remaining space */
+  /* Fill to 67MB */
   . = 0x04000000;
   .padding : AT(0x02000000)
   {
