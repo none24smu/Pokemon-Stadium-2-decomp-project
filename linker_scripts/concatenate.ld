@@ -12,6 +12,7 @@ SECTIONS
     build/game_systems.o
     build/pokemon_systems.o
     build/n64_optimizations.o
+    build/final_adjustments.o
     build/pokemon_names.o
     build/move_data_tables.o
     build/all_text_data.o
