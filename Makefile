@@ -9,7 +9,7 @@ SPLAT_CONFIG ?= splat_configs/$(PROJECT_NAME).yaml
 ROM_ANALYZER = tools/rom_analyzer.py
 MIPS_ANALYZER = tools/mips_analyzer.py
 SPLAT = splat
-MIPS_CC = mips-linux-gnu-gcc-10
+MIPS_CC = mips64-linux-gnuabi64-gcc
 RADARE2 = radare2
 
 # Directories
@@ -209,3 +209,13 @@ $(MIPS_CC) -nostdlib -T linker_scripts/$(PROJECT_NAME).ld -o $@ $^
 $(BUILD_DIR)/$(PROJECT_NAME).z64: $(BUILD_DIR)/$(PROJECT_NAME).elf
 @echo "ROM generation requires additional tools (objcopy). Install binutils for N64 ROM generation."
 @echo "For now, the ELF file is the closest to a complete build."
+
+# N64 ROM generation tools
+MIPS_OBJCOPY = mips64-linux-gnuabi64-objcopy
+MIPS_LD = mips64-linux-gnuabi64-ld
+
+$(BUILD_DIR)/$(PROJECT_NAME).z64: $(BUILD_DIR)/$(PROJECT_NAME).elf
+$(MIPS_OBJCOPY) -O binary $< $@
+@echo "ROM generated: $@"
+@echo "Size: $$(stat -c%s $@) bytes"
+@echo "SHA1: $$(sha1sum $@ | cut -d' ' -f1)"

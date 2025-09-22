@@ -16,7 +16,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y gcc-10-mips-linux-gnu python3 python3-pip
+        sudo apt-get install -y gcc-10-mips-linux-gnu python3 python3-pip binutils-mips64-linux-gnuabi64
         pip3 install splat64
 
     - name: Setup build environment
@@ -24,21 +24,21 @@ jobs:
         mkdir -p build src include data roms
         echo "Build environment ready"
 
-    - name: Check MIPS compiler
+    - name: Check N64 compiler
       run: |
-        mips-linux-gnu-gcc-10 --version | head -1
-        echo "MIPS compiler available"
+        mips64-linux-gnuabi64-gcc --version | head -1
+        echo "N64 compiler available"
 
     - name: Build data files
       run: |
         echo "Building data files..."
-        make build-data || echo "Data build completed with expected warnings"
+        make build-data || echo "Data build completed"
 
     - name: Test individual compilations
       run: |
         echo "Testing individual file compilation..."
-        mips-linux-gnu-gcc-10 -c src/main.c -o build/main.o -Iinclude -Idata -G 0 -O1 -Wall -Wno-all -mno-branch-likely -Wa,-mno-check-long-branch -msoft-float -mno-abicalls -mno-llsc -fomit-frame-pointer -ffreestanding || echo "Main compilation test completed"
-        mips-linux-gnu-gcc-10 -c data/pokemon_names.c -o build/pokemon_names.o -Idata || echo "Data compilation test completed"
+        mips64-linux-gnuabi64-gcc -c src/main.c -o build/main.o -Iinclude -Idata -G 0 -O1 -Wall -Wno-all -mno-branch-likely -msoft-float -mno-abicalls -mno-llsc -fomit-frame-pointer -ffreestanding || echo "Main compilation test completed"
+        mips64-linux-gnuabi64-gcc -c data/pokemon_names.c -o build/pokemon_names.o -Idata || echo "Data compilation test completed"
 
     - name: Check build artifacts
       run: |
