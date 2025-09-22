@@ -1,6 +1,6 @@
 # Building Pokemon Stadium 2 (Work in Progress)
 
-This repository aims to produce a bit-for-bit matching build of Pokemon Stadium 2 (N64) from source. The build system is now functional with source code compilation.
+This repository aims to produce a bit-for-bit matching build of Pokemon Stadium 2 (N64) from source. The build system now includes extensive data integration and improved compilation handling.
 
 ## Prerequisites
 
@@ -31,7 +31,7 @@ This repository aims to produce a bit-for-bit matching build of Pokemon Stadium 
    ```bash
    make build
    ```
-   This compiles all C files in src/ to object files in build/ and links them.
+   This compiles all C files and data arrays to object files and links them.
 
 5. **Verify the Build:**
    ```bash
@@ -41,15 +41,30 @@ This repository aims to produce a bit-for-bit matching build of Pokemon Stadium 
 
 ## Build Targets
 
-- `make build`: Compile and link all source files
+- `make build`: Compile and link all source files and data
+- `make build-data`: Build only data files
 - `make clean`: Clean build artifacts
 - `make extract-assets`: Extract assets from ROM
 - `make verify`: Verify ROM SHA1
-- `make rom-info`: Show ROM information
+
+## Current Status
+
+- ✅ Source code compilation with MIPS toolchain
+- ✅ Data structures integrated as C arrays
+- ✅ CI/CD pipeline for automated testing
+- ✅ Extensive decompiled function base
+- ⚠️ Some compilation warnings/errors expected from decompiled code
+- 🔄 Working toward bit-for-bit matching
+
+## Troubleshooting
+
+- **Compilation Errors**: Decompiled code may have MIPS assembly issues. The build system handles this gracefully.
+- **Missing Dependencies**: Ensure MIPS toolchain is installed
+- **Large Data Files**: Data arrays are compiled separately for better performance
 
 ## Notes
 
-- The build system compiles C files using the MIPS toolchain
-- Assets are generated locally from the ROM and not committed to Git
-- Current status: Source code compilation working with expected warnings
-- Next: Refine segment configuration and add more matching logic
+- Build system compiles both source code and data structures
+- Some functions may have expected compilation warnings from decompilation
+- CI pipeline tests individual components for robustness
+- Ready for further refinement and matching work
