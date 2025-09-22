@@ -1,4 +1,6 @@
 OUTPUT_ARCH(mips)
+ENTRY(_start)
+
 SECTIONS
 {
   . = 0x00000000;
@@ -8,6 +10,7 @@ SECTIONS
     build/battle.o
     build/stubs.o
     build/game_systems.o
+    build/pokemon_systems.o
     build/pokemon_names.o
     build/move_data_tables.o
     build/all_text_data.o
