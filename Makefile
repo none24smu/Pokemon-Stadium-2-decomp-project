@@ -72,6 +72,18 @@ decompile:
 	python3 $(MIPS_ANALYZER) $(ROM_FILE) analyze $(ADDR)
 
 # Build the project (after decompilation)
+# Check for MIPS compiler
+ifeq (, $(shell which $(MIPS_CC)))
+  $(error "MIPS compiler $(MIPS_CC) not found. Install with: sudo apt install gcc-mips-linux-gnu")
+endif
+# Compile all source files
+build: $(BUILD_DIR)/pokemon_stadium_2.elf
+
+$(BUILD_DIR)/pokemon_stadium_2.elf: $(patsubst $(SRC_DIR)/%.c, $(BUILD_DIR)/%.o, $(wildcard $(SRC_DIR)/*.c))
+	$(MIPS_CC) -nostdlib -T linker_scripts/$(PROJECT_NAME).ld -o $@ $^
+# Compile source files
+$(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
+	$(MIPS_CC) -c $< -o $@ -Iinclude -I$(BUILD_DIR) -G 0 -O2 -Wall
 # Compile source files
 $(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
 	$(MIPS_CC) -c $< -o $@ -Iinclude

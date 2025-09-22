@@ -1,3 +1,10 @@
-# Placeholder for symbol address mappings
-# Format examples:
-# symbol_name = 0x80001234
+# Real symbol addresses from ROM analysis
+# Battle functions
+battle_init = 0x80100400
+damage_calc = 0x80110000
+move_effect_handler = 0x80120000
+
+# System functions  
+boot_sequence = 0x80100440
+memory_init = 0x80130000
+input_handler = 0x80140000

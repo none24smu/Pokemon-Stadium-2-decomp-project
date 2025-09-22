@@ -8,6 +8,18 @@ import os
 from pathlib import Path
 import struct
 
+def extract_header_info(rom_data):
+    """Extract ROM header information"""
+    header = rom_data[0:0x40]
+    with open('extracted/rom_header.bin', 'wb') as f:
+        f.write(header)
+    
+    # Print header info
+    print("ROM Header:")
+    print(f"  Title: {header[0x20:0x34].decode('ascii').rstrip()}")
+    print(f"  Game ID: {header[0x3B:0x3F].decode('ascii')}")
+    print(f"  Entry Point: 0x{header[8] << 24 | header[9] << 16 | header[10] << 8 | header[11]:08x}")
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: extract_assets.py <rom_path>")
@@ -26,13 +38,12 @@ def main():
     assets.mkdir(parents=True, exist_ok=True)
 
     # Extract header info
-    header = rom_data[0:0x40]
-    with open(extracted / 'rom_header.bin', 'wb') as f:
-        f.write(header)
+    extract_header_info(rom_data)
 
     # Create asset placeholders (expand as needed)
     (assets / 'README.txt').write_text(
         'Assets generated from baserom by extract_assets.py\n'
+        'Do not commit large binary assets to Git.\n'
     )
     
     print("Asset extraction complete.")
