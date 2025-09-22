@@ -199,7 +199,7 @@ MIPS_OBJCOPY = mips64-linux-gnuabi64-objcopy
 MIPS_LD = mips64-linux-gnuabi64-ld
 
 $(BUILD_DIR)/$(PROJECT_NAME).elf: $(ROM_OBJS)
-ROM_OBJS = $(BUILD_DIR)/boot.o $(BUILD_DIR)/main.o $(BUILD_DIR)/pokemon_names.o $(BUILD_DIR)/move_data_tables.o $(BUILD_DIR)/all_text_data.o $(BUILD_DIR)/move_names.o $(BUILD_DIR)/type_effectiveness_charts.o
+ROM_OBJS = $(BUILD_DIR)/boot_minimal.o $(BUILD_DIR)/battle.o $(BUILD_DIR)/pokemon_names.o $(BUILD_DIR)/move_data_tables.o $(BUILD_DIR)/all_text_data.o $(BUILD_DIR)/move_names.o $(BUILD_DIR)/type_effectiveness_charts.o
 
 $(BUILD_DIR)/$(PROJECT_NAME).z64: $(BUILD_DIR)/$(PROJECT_NAME).elf
 $(MIPS_OBJCOPY) -O binary $< $@

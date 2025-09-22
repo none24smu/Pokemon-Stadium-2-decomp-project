@@ -8,30 +8,42 @@ SECTIONS
   . = 0x00000000;
   .header : AT(0x00000000)
   {
-    KEEP(*(.header))
+    LONG(0x80371240)  /* PI_BSD_DOM1 */
+    LONG(0x00000000)  /* Clock rate */
+    LONG(0x80001000)  /* Entry point */
+    LONG(0x00000000)  /* Release */
+    LONG(0x00000000)  /* CRC1 */
+    LONG(0x00000000)  /* CRC2 */
+    LONG(0x00000000)  /* Unknown */
+    LONG(0x00000000)  /* Unknown */
+    . += 32;          /* Pad to 64 bytes */
   }
 
   /* Boot code */
   . = 0x00001000;
   .boot : AT(0x00001000)
   {
-    *(.boot)
+    build/boot_minimal.o(.text)
   }
 
-  /* Main code and data */
+  /* Data sections */
+  . = 0x00002000;
+  .data : AT(0x00002000)
+  {
+    build/pokemon_names.o(.data)
+    build/move_data_tables.o(.data)
+    build/all_text_data.o(.data)
+    build/move_names.o(.data)
+    build/type_effectiveness_charts.o(.data)
+  }
+
+  /* Code sections */
   . = 0x80000400;
-  .text : AT(0x00002000)
+  .text : AT(0x00080000)
   {
-    *(.text*)
-    *(.rodata*)
+    build/battle.o(.text)
   }
 
-  . = 0x80200000;
-  .data : AT(0x00080000)
-  {
-    *(.data*)
-  }
-
-  /* Fill remaining space */
+  /* Fill to 67MB */
   . = 0x04000000;
 }
