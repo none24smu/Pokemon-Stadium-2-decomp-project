@@ -1,0 +1,604 @@
+Pokemon Stadium 2 - Extracted Move Names
+==================================================
+
+ BALL                - ROM 0x01d870f0
+ Ball                - ROM 0x01d8e499
+ CUP                 - ROM 0x01d8c712
+ Cup                 - ROM 0x01d8e446
+ DOLL                - ROM 0x01d8721e
+ FLUTE               - ROM 0x01d8a187
+A to Z               - ROM 0x01d8ca1e
+ABILITIES            - ROM 0x01d8cdd1
+ABSORB               - ROM 0x01d81020
+ACCURACY             - ROM 0x01d8cdf2
+ACID                 - ROM 0x01d80f6b
+ACID ARMOR           - ROM 0x01d8131a
+AEROBLAST            - ROM 0x01d81414
+AGILITY              - ROM 0x01d81126
+AMNESIA              - ROM 0x01d81273
+AMULET COIN          - ROM 0x01d87432
+ANCIENTPOWER         - ROM 0x01d816cb
+ANTIDOTE             - ROM 0x01d8710a
+AOK                  - ROM 0x01d8c2cf
+ATTACK               - ROM 0x01d8cddb
+ATTRACT              - ROM 0x01d81575
+AURORA BEAM          - ROM 0x01d80fc7
+AWAKENING            - ROM 0x01d87126
+AZALEA GYM BATTLE    - ROM 0x01d8e2bf
+Accuracy             - ROM 0x01d8c268
+Anything Goes        - ROM 0x01d8ca53
+Attack               - ROM 0x01d8c20e
+BARRAGE              - ROM 0x01d812b8
+BARRIER              - ROM 0x01d811b5
+BASEMENT KEY         - ROM 0x01d875f3
+BATON PASS           - ROM 0x01d815fb
+BATTLE               - ROM 0x01d8cda4
+BEAT UP              - ROM 0x01d81706
+BELLY DRUM           - ROM 0x01d8147c
+BERRY                - ROM 0x01d8771f
+BERRY JUICE          - ROM 0x01d87611
+BERSERK GENE         - ROM 0x01d87669
+BICYCLE              - ROM 0x01d870f7
+BIDE                 - ROM 0x01d811e4
+BIG MUSHROOM         - ROM 0x01d8740a
+BIG PEARL            - ROM 0x01d8750c
+BIKE VOUCHER         - ROM 0x01d8a077
+BIND                 - ROM 0x01d80e55
+BITE                 - ROM 0x01d80f39
+BITTER BERRY         - ROM 0x01d873d8
+BLACK BELT           - ROM 0x01d8748b
+BLACKGLASSES         - ROM 0x01d874b1
+BLACKTHORN GYM       - ROM 0x01d8e341
+BLAINE               - ROM 0x01d8fc60
+BLIZZARD             - ROM 0x01d80fab
+BLK APRICORN         - ROM 0x01d87496
+BLU APRICORN         - ROM 0x01d87424
+BLUE                 - ROM 0x01d8fc67
+BLUE CARD            - ROM 0x01d8753f
+BLUESKY MAIL         - ROM 0x01d877a8
+BODY SLAM            - ROM 0x01d80edb
+BONE CLUB            - ROM 0x01d81226
+BONE RUSH            - ROM 0x01d814eb
+BONEMERANG           - ROM 0x01d81346
+BOULDERBADGE         - ROM 0x01d89f84
+BRICK PIECE          - ROM 0x01d87756
+BRIGHT POWDER        - ROM 0x01d870d3
+BROCK                - ROM 0x01d8fc5a
+BUBBLE               - ROM 0x01d812ec
+BUBBLEBEAM           - ROM 0x01d80fbc
+BUG                  - ROM 0x01d8c12a
+BURN                 - ROM 0x01d8c2e8
+BURN HEAL            - ROM 0x01d87113
+BURNT BERRY          - ROM 0x01d873aa
+Battle again         - ROM 0x01d8e1a4
+CALCIUM              - ROM 0x01d871dd
+CANCEL               - ROM 0x01d8cdab
+CARBOS               - ROM 0x01d871ca
+CARD KEY             - ROM 0x01d875b4
+CASCADEBADGE         - ROM 0x01d89f91
+CELADON GYM          - ROM 0x01d8fe9b
+CELADON GYM BATTLE   - ROM 0x01d8e39d
+CERULEAN GYM         - ROM 0x01d8fe80
+CERULEAN GYM BATTLE  - ROM 0x01d8e374
+CHALLENGE CUP        - ROM 0x01d8c717
+CHARCOAL             - ROM 0x01d87608
+CHARM                - ROM 0x01d81521
+CHECK                - ROM 0x01d8cdb2
+CIANWOOD GYM BATTLE  - ROM 0x01d8e2fa
+CINNABAR GYM         - ROM 0x01d8febf
+CINNABAR GYM BATTLE  - ROM 0x01d8e3d6
+CLAMP                - ROM 0x01d81245
+CLEANSE TAG          - ROM 0x01d87458
+CLEAR BELL           - ROM 0x01d87343
+COIN CASE            - ROM 0x01d872af
+COM                  - ROM 0x01d8ca89
+COMET PUNCH          - ROM 0x01d80dbd
+CONFUSE RAY          - ROM 0x01d81193
+CONFUSION            - ROM 0x01d81102
+CONSTRICT            - ROM 0x01d81269
+CONVERSION           - ROM 0x01d81374
+COTTON SPORE         - ROM 0x01d8141e
+COUNTER              - ROM 0x01d81002
+CRABHAMMER           - ROM 0x01d81325
+CROSS CHOP           - ROM 0x01d8167a
+CRUNCH               - ROM 0x01d816a2
+CURSE                - ROM 0x01d813fb
+CUT                  - ROM 0x01d80e32
+Cancel               - ROM 0x01d8c9c5
+Challenge Cup        - ROM 0x01d8e44b
+Champion             - ROM 0x01d8e42b
+Change Item          - ROM 0x01d8c5c3
+Check                - ROM 0x01d8c9bf
+Class Room           - ROM 0x01d8fc9b
+Continue             - ROM 0x01d8e15e
+DARK                 - ROM 0x01d8c16b
+DEFENSE              - ROM 0x01d8cdea
+DEFENSE CURL         - ROM 0x01d811a8
+DESTINY BOND         - ROM 0x01d814c2
+DETECT               - ROM 0x01d814e4
+DEX                  - ROM 0x01d89f0a
+DIG                  - ROM 0x01d810f8
+DIRE HIT             - ROM 0x01d87262
+DISABLE              - ROM 0x01d80f63
+DIZZY PUNCH          - ROM 0x01d812f3
+DOME FOSSIL          - ROM 0x01d8a052
+DOUBLE KICK          - ROM 0x01d80e6f
+DOUBLE TEAM          - ROM 0x01d81163
+DOUBLE-EDGE          - ROM 0x01d80efb
+DOUBLESLAP           - ROM 0x01d80db2
+DRAGON               - ROM 0x01d8c164
+DRAGON FANG          - ROM 0x01d87635
+DRAGON RAGE          - ROM 0x01d81096
+DRAGON SCALE         - ROM 0x01d8765c
+DRAGONBREATH         - ROM 0x01d815ee
+DREAM EATER          - ROM 0x01d812a1
+DRILL PECK           - ROM 0x01d80fe3
+DYNAMICPUNCH         - ROM 0x01d815d8
+Defense              - ROM 0x01d8c215
+Delete more          - ROM 0x01d8c86c
+Delete this set      - ROM 0x01d8c9af
+EARTHBADGE           - ROM 0x01d89fda
+EARTHQUAKE           - ROM 0x01d810e5
+ECRUTEAK GYM BATTLE  - ROM 0x01d8e2e6
+EGG BOMB             - ROM 0x01d8120c
+EGG TICKET           - ROM 0x01d875ca
+ELECTRIC             - ROM 0x01d8c14f
+ELITE FOUR           - ROM 0x01d8fed9
+ELITE FOUR BATTLE    - ROM 0x01d8e350
+ELIXER               - ROM 0x01d8730d
+EMBER                - ROM 0x01d80f70
+ENCORE               - ROM 0x01d81606
+ENDURE               - ROM 0x01d8151a
+ENERGY ROOT          - ROM 0x01d8757a
+ENERGYPOWDER         - ROM 0x01d8756d
+ENTER                - ROM 0x01d8c4a8
+EON MAIL             - ROM 0x01d87794
+ERIKA                - ROM 0x01d8fc47
+ESCAPE ROPE          - ROM 0x01d87175
+ETHER                - ROM 0x01d872fd
+EVASION              - ROM 0x01d8cde2
+EVERSTONE            - ROM 0x01d87516
+EXCHANGE             - ROM 0x01d8c4ae
+EXPLOSION            - ROM 0x01d81330
+EXTREMESPEED         - ROM 0x01d816be
+Event Battle         - ROM 0x01d8e5ac
+FAINT ATTACK         - ROM 0x01d81464
+FAINTED              - ROM 0x01d8c2d3
+FALSE SWIPE          - ROM 0x01d8152f
+FAST BALL            - ROM 0x01d876b0
+FIGHTING             - ROM 0x01d8c107
+FINAL BATTLE         - ROM 0x01d8fe68
+FIRE                 - ROM 0x01d8c13e
+FIRE BLAST           - ROM 0x01d81230
+FIRE PUNCH           - ROM 0x01d80ddc
+FIRE SPIN            - ROM 0x01d810a2
+FIRE STONE           - ROM 0x01d87192
+FISSURE              - ROM 0x01d810f0
+FLAIL                - ROM 0x01d81401
+FLAME WHEEL          - ROM 0x01d813e9
+FLAMETHROWER         - ROM 0x01d80f76
+FLASH                - ROM 0x01d81305
+FLOWER MAIL          - ROM 0x01d8768f
+FLY                  - ROM 0x01d80e51
+FLYING               - ROM 0x01d8c110
+FOCUS BAND           - ROM 0x01d87561
+FOCUS ENERGY         - ROM 0x01d811d7
+FOG                  - ROM 0x01d8fbcf
+FOGBADGE             - ROM 0x01d8e0c5
+FORESIGHT            - ROM 0x01d814b8
+FREE BATTLE          - ROM 0x01d8c72f
+FRESH WATER          - ROM 0x01d8726c
+FRIEND BALL          - ROM 0x01d876c6
+FRUSTRATION          - ROM 0x01d815a1
+FUCHSIA GYM          - ROM 0x01d8fea7
+FUCHSIA GYM BATTLE   - ROM 0x01d8e3b0
+FULL HEAL            - ROM 0x01d87224
+FULL RESTORE         - ROM 0x01d8713c
+FURY ATTACK          - ROM 0x01d80ebd
+FURY CUTTER          - ROM 0x01d81554
+FURY SWIPES          - ROM 0x01d8133a
+FUTURE SIGHT         - ROM 0x01d816e4
+Final Battle         - ROM 0x01d8e46e
+Four level classes   - ROM 0x01d8ebef
+Free Battle          - ROM 0x01d8e575
+From the start       - ROM 0x01d8e190
+GHOST                - ROM 0x01d8c12e
+GIGA DRAIN           - ROM 0x01d8150f
+GLACIER              - ROM 0x01d8fbe1
+GLACIERBADGE         - ROM 0x01d8e0e6
+GLARE                - ROM 0x01d8129b
+GOLD BERRY           - ROM 0x01d87725
+GOLD LEAF            - ROM 0x01d8737e
+GOLD TEETH           - ROM 0x01d8a126
+GOLDENROD GYM BATTLE - ROM 0x01d8e2d1
+GOOD ROD             - ROM 0x01d872d8
+GORGEOUS BOX         - ROM 0x01d876f1
+GRASS                - ROM 0x01d8c149
+GREAT BALL           - ROM 0x01d870e1
+GRN APRICORN         - ROM 0x01d8744b
+GROUND               - ROM 0x01d8c11e
+GROWL                - ROM 0x01d80f3e
+GROWTH               - ROM 0x01d8103d
+GS BALL              - ROM 0x01d87537
+GUILLOTINE           - ROM 0x01d80e0f
+GUST                 - ROM 0x01d80e36
+GYM                  - ROM 0x01d8e1a0
+GYM LEADER CASTLE    - ROM 0x01d8c73b
+Game Pak             - ROM 0x01d8feea
+Gender               - ROM 0x01d8c299
+Great Ball           - ROM 0x01d8e49f
+Gym Leader Castle    - ROM 0x01d8e4c1
+HARD STONE           - ROM 0x01d8759f
+HARDEN               - ROM 0x01d81177
+HAZE                 - ROM 0x01d811ca
+HEADBUTT             - ROM 0x01d80ea8
+HEAL BELL            - ROM 0x01d81588
+HEAL POWDER          - ROM 0x01d87586
+HEAVY BALL           - ROM 0x01d87684
+HELIX FOSSIL         - ROM 0x01d8a05e
+HI JUMP KICK         - ROM 0x01d8128e
+HIDDEN POWER         - ROM 0x01d8166d
+HIVE                 - ROM 0x01d8fbc4
+HIVEBADGE            - ROM 0x01d8e0b0
+HORN ATTACK          - ROM 0x01d80eb1
+HORN DRILL           - ROM 0x01d80ec9
+HP UP                - ROM 0x01d871b7
+HYDRO PUMP           - ROM 0x01d80f92
+HYPER BEAM           - ROM 0x01d80fd3
+HYPER FANG           - ROM 0x01d81361
+HYPER POTION         - ROM 0x01d87154
+HYPNOSIS             - ROM 0x01d81114
+Heavy Cup            - ROM 0x01d8fc70
+ICE                  - ROM 0x01d8c160
+ICE BEAM             - ROM 0x01d80fa2
+ICE BERRY            - ROM 0x01d873b6
+ICE HEAL             - ROM 0x01d8711d
+ICE PUNCH            - ROM 0x01d80de7
+ICY WIND             - ROM 0x01d814db
+IRON                 - ROM 0x01d871c5
+IRON TAIL            - ROM 0x01d8162c
+ITEM                 - ROM 0x01d8c4cd
+ITEMFINDER           - ROM 0x01d872b9
+Item                 - ROM 0x01d8c237
+JANINE               - ROM 0x01d8fc4d
+JUMP KICK            - ROM 0x01d80e85
+KARATE CHOP          - ROM 0x01d80da6
+KINESIS              - ROM 0x01d8127b
+LANCE                - ROM 0x01d8fc30
+LEAF STONE           - ROM 0x01d871fb
+LEECH LIFE           - ROM 0x01d812c0
+LEECH SEED           - ROM 0x01d81032
+LEER                 - ROM 0x01d80f34
+LEFTOVERS            - ROM 0x01d87642
+LEMONADE             - ROM 0x01d87281
+LEVEL BALL           - ROM 0x01d8769b
+LICK                 - ROM 0x01d81215
+LIFT KEY             - ROM 0x01d8a18e
+LIGHT BALL           - ROM 0x01d876bb
+LIGHT SCREEN         - ROM 0x01d811bd
+LITEBLUE MAIL        - ROM 0x01d8776c
+LITTLE CUP           - ROM 0x01d8c703
+LOCK-ON              - ROM 0x01d814f5
+LOST ITEM            - ROM 0x01d875d5
+LOVE BALL            - ROM 0x01d876dc
+LOVELY KISS          - ROM 0x01d812cb
+LOVELY MAIL          - ROM 0x01d87788
+LOW KICK             - ROM 0x01d80ff9
+LUCKY EGG            - ROM 0x01d875aa
+LUCKY PUNCH          - ROM 0x01d871d1
+LURE BALL            - ROM 0x01d876a6
+Lance                - ROM 0x01d8e434
+Leader               - ROM 0x01d8e415
+Little Cup           - ROM 0x01d8e459
+MACH PUNCH           - ROM 0x01d8144e
+MACHINE PART         - ROM 0x01d875bd
+MAGNET               - ROM 0x01d874f2
+MAGNITUDE            - ROM 0x01d815ce
+MAHOGANY GYM BATTLE  - ROM 0x01d8e32d
+MARSHBADGE           - ROM 0x01d89fc2
+MASTER BALL          - ROM 0x01d870bc
+MAX ELIXER           - ROM 0x01d87187
+MAX ETHER            - ROM 0x01d87303
+MAX POTION           - ROM 0x01d87149
+MAX REPEL            - ROM 0x01d87258
+MAX REVIVE           - ROM 0x01d87235
+MEAN LOOK            - ROM 0x01d8156b
+MEDITATE             - ROM 0x01d8111d
+MEGA DRAIN           - ROM 0x01d81027
+MEGA KICK            - ROM 0x01d80e7b
+MEGA PUNCH           - ROM 0x01d80dc9
+MEGAHORN             - ROM 0x01d815e5
+METAL CLAW           - ROM 0x01d81636
+METAL COAT           - ROM 0x01d8762a
+METAL POWDER         - ROM 0x01d87206
+METRONOME            - ROM 0x01d811e9
+MILK DRINK           - ROM 0x01d81543
+MIMIC                - ROM 0x01d81155
+MIND READER          - ROM 0x01d813d3
+MINERAL              - ROM 0x01d8fbd3
+MINERALBADGE         - ROM 0x01d8e0d9
+MINIMIZE             - ROM 0x01d8117e
+MINT BERRY           - ROM 0x01d873e5
+MIRACLE SEED         - ROM 0x01d87549
+MIRACLEBERRY         - ROM 0x01d874f9
+MIRAGE MAIL          - ROM 0x01d877c0
+MIRROR COAT          - ROM 0x01d816a9
+MIRROR MOVE          - ROM 0x01d811f3
+MIST                 - ROM 0x01d80f83
+MISTY                - ROM 0x01d8fc54
+MON                  - ROM 0x01d8c582
+MON asleep or frozen - ROM 0x01d8ea6c
+MOOMOO MILK          - ROM 0x01d8735a
+MOON BALL            - ROM 0x01d876d2
+MOON STONE           - ROM 0x01d870ff
+MOONLIGHT            - ROM 0x01d81663
+MORNING SUN          - ROM 0x01d8164d
+MORPH MAIL           - ROM 0x01d8779d
+MUD-SLAP             - ROM 0x01d81493
+MUSIC MAIL           - ROM 0x01d877b5
+MYSTERY EGG          - ROM 0x01d87337
+MYSTERYBERRY         - ROM 0x01d8764f
+MYSTIC WATER         - ROM 0x01d87464
+Master Ball          - ROM 0x01d8e4b5
+Multiplayer          - ROM 0x01d8eca2
+NEVERMELTICE         - ROM 0x01d874e5
+NIGHT SHADE          - ROM 0x01d81149
+NIGHTMARE            - ROM 0x01d813df
+NORMAL               - ROM 0x01d8c100
+NORMAL BOX           - ROM 0x01d876e6
+NUGGET               - ROM 0x01d87213
+Nickname             - ROM 0x01d8c290
+No item              - ROM 0x01d8c4e6
+No sort              - ROM 0x01d8ca25
+None                 - ROM 0x01d8fef9
+OCTAZOOKA            - ROM 0x01d8149c
+OK to Register       - ROM 0x01d8c589
+OLD AMBER            - ROM 0x01d89ff7
+OLD ROD              - ROM 0x01d872d0
+OLIVINE GYM BATTLE   - ROM 0x01d8e30e
+OUTRAGE              - ROM 0x01d814fd
+PAIN SPLIT           - ROM 0x01d815b7
+PARALYZE             - ROM 0x01d8c2f1
+PARK BALL            - ROM 0x01d8773e
+PARLYZ HEAL          - ROM 0x01d87130
+PARTY                - ROM 0x01d8c4ee
+PASS                 - ROM 0x01d87600
+PAY DAY              - ROM 0x01d80dd4
+PEARL                - ROM 0x01d87506
+PECK                 - ROM 0x01d80fde
+PERISH SONG          - ROM 0x01d814cf
+PETAL DANCE          - ROM 0x01d8107e
+PEWTER GYM           - ROM 0x01d8fe75
+PEWTER GYM BATTLE    - ROM 0x01d8e362
+PIN MISSILE          - ROM 0x01d80f28
+PINK BOW             - ROM 0x01d874cb
+PLAIN                - ROM 0x01d8fbc9
+PLAINBADGE           - ROM 0x01d8e0ba
+PNK APRICORN         - ROM 0x01d874a4
+POISON               - ROM 0x01d8c117
+POISON BARB          - ROM 0x01d873c0
+POISON GAS           - ROM 0x01d812ad
+POISON STING         - ROM 0x01d80f11
+POISONPOWDER         - ROM 0x01d81059
+POLKADOT BOW         - ROM 0x01d87708
+PORTRAIT MAIL        - ROM 0x01d8777a
+POTION               - ROM 0x01d8716e
+POWDER SNOW          - ROM 0x01d8143a
+PP UP                - ROM 0x01d872f7
+PRESENT              - ROM 0x01d81599
+PRIME CUP            - ROM 0x01d8c725
+PROTECT              - ROM 0x01d81446
+PROTEIN              - ROM 0x01d871bd
+PRZCUREBERRY         - ROM 0x01d8739d
+PSNCUREBERRY         - ROM 0x01d87371
+PSYBEAM              - ROM 0x01d80fb4
+PSYCH UP             - ROM 0x01d816b5
+PSYCHIC              - ROM 0x01d8110c
+PSYWAVE              - ROM 0x01d8130b
+PURSUIT              - ROM 0x01d8160d
+Petit Cup            - ROM 0x01d8e558
+Pika Cup             - ROM 0x01d8e562
+Power                - ROM 0x01d8c262
+Prime Cup            - ROM 0x01d8e464
+QUICK ATTACK         - ROM 0x01d8112e
+QUICK CLAW           - ROM 0x01d87366
+Quit                 - ROM 0x01d8c867
+RAGE                 - ROM 0x01d8113b
+RAGECANDYBAR         - ROM 0x01d8752a
+RAIN DANCE           - ROM 0x01d8168d
+RAINBOW WING         - ROM 0x01d87748
+RAINBOWBADGE         - ROM 0x01d89fab
+RAPID SPIN           - ROM 0x01d81615
+RARE CANDY           - ROM 0x01d871e5
+RAZOR LEAF           - ROM 0x01d81044
+RAZOR WIND           - ROM 0x01d80e1a
+RECOVER              - ROM 0x01d8116f
+RED                  - ROM 0x01d8fc6c
+RED APRICORN         - ROM 0x01d873f0
+RED SCALE            - ROM 0x01d87314
+REFLECT              - ROM 0x01d811cf
+REPEL                - ROM 0x01d87181
+REST                 - ROM 0x01d81351
+RETURN               - ROM 0x01d81592
+REVERSAL             - ROM 0x01d8142b
+REVIVAL HERB         - ROM 0x01d87592
+REVIVE               - ROM 0x01d8722e
+RISING               - ROM 0x01d8fbe9
+RISINGBADGE          - ROM 0x01d8e0f3
+RIVAL                - ROM 0x01d8fee4
+ROAR                 - ROM 0x01d80f44
+ROCK                 - ROM 0x01d8c125
+ROCK SLIDE           - ROM 0x01d81356
+ROCK SMASH           - ROM 0x01d816f1
+ROCK THROW           - ROM 0x01d810da
+ROLLING KICK         - ROM 0x01d80e8f
+ROLLOUT              - ROM 0x01d81527
+RUN                  - ROM 0x01d8cdb8
+Re-enter             - ROM 0x01d8e187
+Re-select            - ROM 0x01d8de89
+Red                  - ROM 0x01d8e43a
+Register             - ROM 0x01d8ca3e
+Registration         - ROM 0x01d8c94b
+Rival                - ROM 0x01d8fcb2
+SABRINA              - ROM 0x01d8fc3f
+SACRED ASH           - ROM 0x01d87679
+SACRED FIRE          - ROM 0x01d815c2
+SAFARI BALL          - ROM 0x01d89efa
+SAFEGUARD            - ROM 0x01d815ad
+SAFFRON GYM          - ROM 0x01d8feb3
+SAFFRON GYM BATTLE   - ROM 0x01d8e3c3
+SAND-ATTACK          - ROM 0x01d80e9c
+SANDSTORM            - ROM 0x01d81505
+SCARY FACE           - ROM 0x01d81459
+SCOPE LENS           - ROM 0x01d8761d
+SCRATCH              - ROM 0x01d80dfe
+SCREECH              - ROM 0x01d8115b
+SECRET KEY           - ROM 0x01d8a06b
+SECRETPOTION         - ROM 0x01d8731e
+SEISMIC TOSS         - ROM 0x01d8100a
+SELECT ITEM          - ROM 0x01d8c49c
+SELFDESTRUCT         - ROM 0x01d811ff
+SEMIFINAL            - ROM 0x01d8fe5e
+SHADOW BALL          - ROM 0x01d816d8
+SHARP BEAK           - ROM 0x01d87392
+SHARPEN              - ROM 0x01d8136c
+SILPH SCOPE          - ROM 0x01d8a177
+SILVER LEAF          - ROM 0x01d872e1
+SILVER WING          - ROM 0x01d8734e
+SILVERPOWDER         - ROM 0x01d87417
+SING                 - ROM 0x01d80f49
+SKETCH               - ROM 0x01d813af
+SKULL BASH           - ROM 0x01d81251
+SKY ATTACK           - ROM 0x01d812d7
+SLAM                 - ROM 0x01d80e5a
+SLASH                - ROM 0x01d81395
+SLEEP                - ROM 0x01d8c2db
+SLEEP POWDER         - ROM 0x01d81071
+SLEEP TALK           - ROM 0x01d8157d
+SLOWPOKETAIL         - ROM 0x01d874be
+SLUDGE               - ROM 0x01d8121f
+SLUDGE BOMB          - ROM 0x01d81487
+SMOG                 - ROM 0x01d8121a
+SMOKE BALL           - ROM 0x01d874da
+SMOKESCREEN          - ROM 0x01d81187
+SNORE                - ROM 0x01d813f5
+SODA POP             - ROM 0x01d87278
+SOFT SAND            - ROM 0x01d87388
+SOFTBOILED           - ROM 0x01d81283
+SOLARBEAM            - ROM 0x01d8104f
+SONICBOOM            - ROM 0x01d80f59
+SOULBADGE            - ROM 0x01d89fb8
+SPARK                - ROM 0x01d8154e
+SPEED                - ROM 0x01d8cdfb
+SPELL TAG            - ROM 0x01d87520
+SPIDER WEB           - ROM 0x01d813c8
+SPIKE CANNON         - ROM 0x01d8125c
+SPIKES               - ROM 0x01d814a6
+SPITE                - ROM 0x01d81434
+SPLASH               - ROM 0x01d81313
+SPORE                - ROM 0x01d812ff
+SQUIRTBOTTLE         - ROM 0x01d87730
+STAR PIECE           - ROM 0x01d875e8
+STARDUST             - ROM 0x01d875df
+STEEL                - ROM 0x01d8c134
+STEEL WING           - ROM 0x01d81560
+STICK                - ROM 0x01d874d4
+STOMP                - ROM 0x01d80e69
+STORM                - ROM 0x01d8fbdb
+STORMBADGE           - ROM 0x01d8e0ce
+STRENGTH             - ROM 0x01d81017
+STRING SHOT          - ROM 0x01d8108a
+STRUGGLE             - ROM 0x01d813a6
+STUN SPORE           - ROM 0x01d81066
+SUBMISSION           - ROM 0x01d80fee
+SUBSTITUTE           - ROM 0x01d8139b
+SUN STONE            - ROM 0x01d876fe
+SUNNY DAY            - ROM 0x01d81698
+SUPER FANG           - ROM 0x01d8138a
+SUPER POTION         - ROM 0x01d87161
+SUPER REPEL          - ROM 0x01d8724c
+SUPER ROD            - ROM 0x01d872ed
+SUPERSONIC           - ROM 0x01d80f4e
+SURF                 - ROM 0x01d80f9d
+SURF MAIL            - ROM 0x01d87762
+SWAGGER              - ROM 0x01d8153b
+SWEET KISS           - ROM 0x01d81471
+SWEET SCENT          - ROM 0x01d81620
+SWIFT                - ROM 0x01d8124b
+SWORDS DANCE         - ROM 0x01d80e25
+SYNTHESIS            - ROM 0x01d81659
+Select again         - ROM 0x01d8c9cf
+Semifinal Battle     - ROM 0x01d8e47b
+Speed                - ROM 0x01d8c21d
+Status               - ROM 0x01d8c25a
+Suspend              - ROM 0x01d8e167
+TACKLE               - ROM 0x01d80ed4
+TAIL WHIP            - ROM 0x01d80f07
+TAKE DOWN            - ROM 0x01d80eea
+TEAM ROCKET          - ROM 0x01d8e321
+TELEPORT             - ROM 0x01d81140
+THICK CLUB           - ROM 0x01d87556
+THIEF                - ROM 0x01d813c2
+THRASH               - ROM 0x01d80ef4
+THUNDER              - ROM 0x01d810d2
+THUNDER WAVE         - ROM 0x01d810c5
+THUNDERBADGE         - ROM 0x01d89f9e
+THUNDERBOLT          - ROM 0x01d810b9
+THUNDERPUNCH         - ROM 0x01d80df1
+THUNDERSHOCK         - ROM 0x01d810ac
+THUNDERSTONE         - ROM 0x01d8719d
+TINYMUSHROOM         - ROM 0x01d873fd
+TOWN MAP             - ROM 0x01d89ee8
+TOXIC                - ROM 0x01d810fc
+TRAINER              - ROM 0x01d8c848
+TRANSFORM            - ROM 0x01d812e2
+TRI ATTACK           - ROM 0x01d8137f
+TRIPLE KICK          - ROM 0x01d813b6
+TWINEEDLE            - ROM 0x01d80f1e
+TWISTEDSPOON         - ROM 0x01d87471
+TWISTER              - ROM 0x01d81685
+Tag team battles     - ROM 0x01d8ecae
+Tame                 - ROM 0x01d8c2a2
+Try Again            - ROM 0x01d8e126
+Try once more        - ROM 0x01d8e1b1
+Type                 - ROM 0x01d8c206
+ULTRA BALL           - ROM 0x01d870c8
+UP-GRADE             - ROM 0x01d87716
+Ultra Ball           - ROM 0x01d8e4aa
+VERMILION GYM        - ROM 0x01d8fe8d
+VERMILION GYM BATTLE - ROM 0x01d8e388
+VICEGRIP             - ROM 0x01d80e06
+VINE WHIP            - ROM 0x01d80e5f
+VIOLET GYM BATTLE    - ROM 0x01d8e2ad
+VIRIDIAN GYM         - ROM 0x01d8fecc
+VIRIDIAN GYM BATTLE  - ROM 0x01d8e3ea
+VITAL THROW          - ROM 0x01d81641
+VOLCANOBADGE         - ROM 0x01d89fcd
+VPOUND               - ROM 0x01d80d9f
+VS RIVAL             - ROM 0x01d8c74d
+VS Rival             - ROM 0x01d8e48c
+WATER                - ROM 0x01d8c143
+WATER GUN            - ROM 0x01d80f88
+WATER STONE          - ROM 0x01d871aa
+WATERFALL            - ROM 0x01d8123b
+WHIRLPOOL            - ROM 0x01d816fc
+WHIRLWIND            - ROM 0x01d80e47
+WHT APRICORN         - ROM 0x01d8747e
+WING ATTACK          - ROM 0x01d80e3b
+WITHDRAW             - ROM 0x01d8119f
+WRAP                 - ROM 0x01d80ee5
+X ACCURACY           - ROM 0x01d871f0
+X ATTACK             - ROM 0x01d8728a
+X DEFEND             - ROM 0x01d87294
+X SPECIAL            - ROM 0x01d872a5
+X SPEED              - ROM 0x01d8729d
+YES                  - ROM 0x01d8cdc7
+YLW APRICORN         - ROM 0x01d8743e
+Yes                  - ROM 0x01d8c4c6
+ZAP CANNON           - ROM 0x01d814ad
+ZEPHYR               - ROM 0x01d8fbbd
+ZEPHYRBADGE          - ROM 0x01d8e0a4
+mon Stadium          - ROM 0x01d8e585
+nMore detail         - ROM 0x01d8e9a7
+to check TM          - ROM 0x01d8c4d2
+to quit              - ROM 0x01d8c4de

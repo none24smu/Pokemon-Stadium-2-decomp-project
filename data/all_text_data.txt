@@ -1,0 +1,1003 @@
+Pokemon Stadium 2 - All Extracted Text
+==================================================
+
+0x01d002ff: ]PERS-SZP
+0x01d04520: PERS-SZP
+0x01d047e0: PERS-SZP
+0x01d0499d: o_kPERS-SZP
+0x01d05a1c: rStaPERS-SZP
+0x01d05ca4: .lude/kencamPERS-SZP
+0x01d070a0: PERS-SZP
+0x01d08fb4: B=<&""""
+0x01d09003: /X&-<YZZ[O
+0x01d0955c: &ghi@jkfl*M<
+0x01d09569: ihmnM`Neihho:ohhinD<
+0x01d095dc: YC1>xC?~,,w^
+0x01d09830: &0((1(%-SX{xv|
+0x01d0a0ed: 895:4;
+0x01d0b750: PERS-SZP
+0x01d0ba1f: ^PERS-SZP
+0x01d0c16c: PKP[Pk
+0x01d0c1c8:  w O [
+0x01d10700: PERS-SZP
+0x01d19230: WH5-'(*+.1
+0x01d19a5d: |cqiUt
+0x01d1a240: PERS-SZP
+0x01d1a36c: cw#gSo
+0x01d1a500: PERS-SZP
+0x01d1b47f: $PERS-SZP
+0x01d1bd80: PERS-SZP
+0x01d1cf90: PERS-SZP
+0x01d1d974: DQ8%*!
+0x01d1dac0: PERS-SZP
+0x01d1f9c0: PERS-SZP
+0x01d24460: PERS-SZP
+0x01d29631: # /`#P
+0x01d2e935: qI+Hl!
+0x01d33e00: PERS-SZP
+0x01d34550: PERS-SZP
+0x01d35620: PERS-SZP
+0x01d358d0: PERS-SZP
+0x01d359c0: PERS-SZP
+0x01d35aa0: PERS-SZP
+0x01d35d30: PERS-SZP
+0x01d3fc4d: y.Y.%11
+0x01d4562a: !SBa:_
+0x01d48d52: #5+535+w+5
+0x01d4a3b0: PERS-SZP
+0x01d4c5ca: ,U#W!!
+0x01d4e910: PERS-SZP
+0x01d4ea2c: 0ws+$G
+0x01d4ebb6: (L^^L80
+0x01d4ed40: PERS-SZP
+0x01d4f138: $y#*!DB{
+0x01d50c00: PERS-SZP
+0x01d602bd: 1Q!(E 
+0x01d61637: KGIGGE
+0x01d61961: (C AC(A  C
+0x01d63110: PERS-SZP
+0x01d631b3: 6 { GP
+0x01d718b8: BULBASAUR
+0x01d718c2: IVYSAUR
+0x01d718ca: VENUSAUR
+0x01d718d3: CHARMANDER
+0x01d718de: CHARMELEON
+0x01d718e9: CHARIZARD
+0x01d718f3: SQUIRTLE
+0x01d718fc: WARTORTLE
+0x01d71906: BLASTOISE
+0x01d71910: CATERPIE
+0x01d71919: METAPOD
+0x01d71921: BUTTERFREE
+0x01d7192c: WEEDLE
+0x01d71933: KAKUNA
+0x01d7193a: BEEDRILL
+0x01d71943: PIDGEY
+0x01d7194a: PIDGEOTTO
+0x01d71954: PIDGEOT
+0x01d7195c: RATTATA
+0x01d71964: RATICATE
+0x01d7196d: SPEAROW
+0x01d71975: FEAROW
+0x01d71988: PIKACHU
+0x01d71990: RAICHU
+0x01d71997: SANDSHREW
+0x01d719a1: SANDSLASH
+0x01d719b4: NIDORINA
+0x01d719bd: NIDOQUEEN
+0x01d719d0: NIDORINO
+0x01d719d9: NIDOKING
+0x01d719e2: CLEFAIRY
+0x01d719eb: CLEFABLE
+0x01d719f4: VULPIX
+0x01d719fb: NINETALES
+0x01d71a05: JIGGLYPUFF
+0x01d71a10: WIGGLYTUFF
+0x01d71a21: GOLBAT
+0x01d71a28: ODDISH
+0x01d71a35: VILEPLUME
+0x01d71a45: PARASECT
+0x01d71a4e: VENONAT
+0x01d71a56: VENOMOTH
+0x01d71a5f: DIGLETT
+0x01d71a67: DUGTRIO
+0x01d71a6f: MEOWTH
+0x01d71a76: PERSIAN
+0x01d71a7e: PSYDUCK
+0x01d71a86: GOLDUCK
+0x01d71a8e: MANKEY
+0x01d71a95: PRIMEAPE
+0x01d71a9e: GROWLITHE
+0x01d71aa8: ARCANINE
+0x01d71ab1: POLIWAG
+0x01d71ab9: POLIWHIRL
+0x01d71ac3: POLIWRATH
+0x01d71ad2: KADABRA
+0x01d71ada: ALAKAZAM
+0x01d71ae3: MACHOP
+0x01d71aea: MACHOKE
+0x01d71af2: MACHAMP
+0x01d71afa: BELLSPROUT
+0x01d71b05: WEEPINBELL
+0x01d71b10: VICTREEBEL
+0x01d71b1b: TENTACOOL
+0x01d71b25: TENTACRUEL
+0x01d71b30: GEODUDE
+0x01d71b38: GRAVELER
+0x01d71b47: PONYTA
+0x01d71b4e: RAPIDASH
+0x01d71b57: SLOWPOKE
+0x01d71b60: SLOWBRO
+0x01d71b68: MAGNEMITE
+0x01d71b72: MAGNETON
+0x01d71b7b: FARFETCH'D
+0x01d71b8c: DODRIO
+0x01d71b98: DEWGONG
+0x01d71ba0: GRIMER
+0x01d71bab: SHELLDER
+0x01d71bb4: CLOYSTER
+0x01d71bbd: GASTLY
+0x01d71bc4: HAUNTER
+0x01d71bcc: GENGAR
+0x01d71bd8: DROWZEE
+0x01d71be6: KRABBY
+0x01d71bed: KINGLER
+0x01d71bf5: VOLTORB
+0x01d71bfd: ELECTRODE
+0x01d71c07: EXEGGCUTE
+0x01d71c11: EXEGGUTOR
+0x01d71c1b: CUBONE
+0x01d71c22: MAROWAK
+0x01d71c2a: HITMONLEE
+0x01d71c34: HITMONCHAN
+0x01d71c3f: LICKITUNG
+0x01d71c49: KOFFING
+0x01d71c51: WEEZING
+0x01d71c59: RHYHORN
+0x01d71c61: RHYDON
+0x01d71c68: CHANSEY
+0x01d71c70: TANGELA
+0x01d71c78: KANGASKHAN
+0x01d71c83: HORSEA
+0x01d71c8a: SEADRA
+0x01d71c91: GOLDEEN
+0x01d71c99: SEAKING
+0x01d71ca1: STARYU
+0x01d71ca8: STARMIE
+0x01d71cb0: MR.MIME
+0x01d71cb8: SCYTHER
+0x01d71cc5: ELECTABUZZ
+0x01d71cd0: MAGMAR
+0x01d71cd7: PINSIR
+0x01d71cde: TAUROS
+0x01d71ce5: MAGIKARP
+0x01d71cee: GYARADOS
+0x01d71cf7: LAPRAS
+0x01d71d0a: VAPOREON
+0x01d71d13: JOLTEON
+0x01d71d1b: FLAREON
+0x01d71d23: PORYGON
+0x01d71d2b: OMANYTE
+0x01d71d33: OMASTAR
+0x01d71d3b: KABUTO
+0x01d71d42: KABUTOPS
+0x01d71d4b: AERODACTYL
+0x01d71d56: SNORLAX
+0x01d71d5e: ARTICUNO
+0x01d71d67: ZAPDOS
+0x01d71d6e: MOLTRES
+0x01d71d76: DRATINI
+0x01d71d7e: DRAGONAIR
+0x01d71d88: DRAGONITE
+0x01d71d92: MEWTWO
+0x01d71d9d: CHIKORITA
+0x01d71da7: BAYLEEF
+0x01d71daf: MEGANIUM
+0x01d71db8: CYNDAQUIL
+0x01d71dc2: QUILAVA
+0x01d71dca: TYPHLOSION
+0x01d71dd5: TOTODILE
+0x01d71dde: CROCONAW
+0x01d71de7: FERALIGATR
+0x01d71df2: SENTRET
+0x01d71dfa: FURRET
+0x01d71e01: HOOTHOOT
+0x01d71e0a: NOCTOWL
+0x01d71e12: LEDYBA
+0x01d71e19: LEDIAN
+0x01d71e20: SPINARAK
+0x01d71e29: ARIADOS
+0x01d71e31: CROBAT
+0x01d71e38: CHINCHOU
+0x01d71e41: LANTURN
+0x01d71e4f: CLEFFA
+0x01d71e56: IGGLYBUFF
+0x01d71e60: TOGEPI
+0x01d71e67: TOGETIC
+0x01d71e79: MAREEP
+0x01d71e80: FLAAFFY
+0x01d71e88: AMPHAROS
+0x01d71e91: BELLOSSOM
+0x01d71e9b: MARILL
+0x01d71ea2: AZUMARILL
+0x01d71eac: SUDOWOODO
+0x01d71eb6: POLITOED
+0x01d71ebf: HOPPIP
+0x01d71ec6: SKIPLOOM
+0x01d71ecf: JUMPLUFF
+0x01d71ede: SUNKERN
+0x01d71ee6: SUNFLORA
+0x01d71ef5: WOOPER
+0x01d71efc: QUAGSIRE
+0x01d71f05: ESPEON
+0x01d71f0c: UMBREON
+0x01d71f14: MURKROW
+0x01d71f1c: SLOWKING
+0x01d71f25: MISDREAVUS
+0x01d71f36: WOBBUFFET
+0x01d71f40: GIRAFARIG
+0x01d71f4a: PINECO
+0x01d71f51: FORRETRESS
+0x01d71f5c: DUNSPARCE
+0x01d71f66: GLIGAR
+0x01d71f6d: STEELIX
+0x01d71f75: SNUBBULL
+0x01d71f7e: GRANBULL
+0x01d71f87: QWILFISH
+0x01d71f90: SCIZOR
+0x01d71f97: SHUCKLE
+0x01d71f9f: HERACROSS
+0x01d71fa9: SNEASEL
+0x01d71fb1: TEDDIURSA
+0x01d71fbb: URSARING
+0x01d71fc4: SLUGMA
+0x01d71fcb: MAGCARGO
+0x01d71fd4: SWINUB
+0x01d71fdb: PILOSWINE
+0x01d71fe5: CORSOLA
+0x01d71fed: REMORAID
+0x01d71ff6: OCTILLERY
+0x01d72000: DELIBIRD
+0x01d72009: MANTINE
+0x01d72011: SKARMORY
+0x01d7201a: HOUNDOUR
+0x01d72023: HOUNDOOM
+0x01d7202c: KINGDRA
+0x01d72034: PHANPY
+0x01d7203b: DONPHAN
+0x01d72043: PORYGON2
+0x01d7204c: STANTLER
+0x01d72055: SMEARGLE
+0x01d7205e: TYROGUE
+0x01d72066: HITMONTOP
+0x01d72070: SMOOCHUM
+0x01d72079: ELEKID
+0x01d72086: MILTANK
+0x01d7208e: BLISSEY
+0x01d72096: RAIKOU
+0x01d720a3: SUICUNE
+0x01d720ab: LARVITAR
+0x01d720b4: PUPITAR
+0x01d720bc: TYRANITAR
+0x01d720d2: CELEBI
+0x01d724ef: LIZARD
+0x01d72502: TINYTURTLE
+0x01d7250d: TURTLE
+0x01d72514: SHELLFISH
+0x01d72523: COCOON
+0x01d7252a: BUTTERFLY
+0x01d72534: HAIRY BUG
+0x01d7253e: COCOON
+0x01d72545: POISON BEE
+0x01d72550: TINY BIRD
+0x01d7256c: TINY BIRD
+0x01d7259f: POISON PIN
+0x01d725aa: POISON PIN
+0x01d725bb: POISON PIN
+0x01d725c6: POISON PIN
+0x01d725eb: BALLOON
+0x01d725f3: BALLOON
+0x01d7260d: FLOWER
+0x01d72614: MUSHROOM
+0x01d7261d: MUSHROOM
+0x01d72626: INSECT
+0x01d7262d: POISONMOTH
+0x01d72642: SCRATCHCAT
+0x01d7264d: CLASSY CAT
+0x01d72662: PIG MONKEY
+0x01d7266d: PIG MONKEY
+0x01d7267e: LEGENDARY
+0x01d72688: TADPOLE
+0x01d72690: TADPOLE
+0x01d72698: TADPOLE
+0x01d726ac: SUPERPOWER
+0x01d726b7: SUPERPOWER
+0x01d726c2: SUPERPOWER
+0x01d726cd: FLOWER
+0x01d726d4: FLYCATCHER
+0x01d726df: FLYCATCHER
+0x01d726ea: JELLYFISH
+0x01d726f4: JELLYFISH
+0x01d72708: MEGATON
+0x01d72710: FIRE HORSE
+0x01d7271b: FIRE HORSE
+0x01d7272c: HERMITCRAB
+0x01d72737: MAGNET
+0x01d7273e: MAGNET
+0x01d72745: WILD DUCK
+0x01d7274f: TWIN BIRD
+0x01d72759: TRIPLEBIRD
+0x01d72764: SEA LION
+0x01d7276d: SEA LION
+0x01d72776: SLUDGE
+0x01d7277d: SLUDGE
+0x01d72784: BIVALVE
+0x01d7278c: BIVALVE
+0x01d7279c: SHADOW
+0x01d727a3: ROCK SNAKE
+0x01d727ae: HYPNOSIS
+0x01d727b7: HYPNOSIS
+0x01d727c0: RIVER CRAB
+0x01d727cb: PINCER
+0x01d727e0: COCONUT
+0x01d727e8: LONELY
+0x01d727ef: BONEKEEPER
+0x01d727fa: KICKING
+0x01d72802: PUNCHING
+0x01d7280b: LICKING
+0x01d72813: POISON GAS
+0x01d7281e: POISON GAS
+0x01d72829: SPIKES
+0x01d7283f: PARENT
+0x01d72846: DRAGON
+0x01d7284d: DRAGON
+0x01d72854: GOLDFISH
+0x01d7285d: GOLDFISH
+0x01d72866: STARSHAPE
+0x01d72870: MYSTERIOUS
+0x01d7287b: BARRIER
+0x01d72883: MANTIS
+0x01d7288a: HUMANSHAPE
+0x01d72895: ELECTRIC
+0x01d7289e: SPITFIRE
+0x01d728a7: STAGBEETLE
+0x01d728b2: WILD BULL
+0x01d728c1: ATROCIOUS
+0x01d728cb: TRANSPORT
+0x01d728d5: TRANSFORM
+0x01d728df: EVOLUTION
+0x01d728e9: BUBBLE JET
+0x01d728f4: LIGHTNING
+0x01d72904: VIRTUAL
+0x01d7290c: SPIRAL
+0x01d72913: SPIRAL
+0x01d7291a: SHELLFISH
+0x01d72924: SHELLFISH
+0x01d7292e: FOSSIL
+0x01d72935: SLEEPING
+0x01d7293e: FREEZE
+0x01d72945: ELECTRIC
+0x01d72954: DRAGON
+0x01d7295b: DRAGON
+0x01d72962: DRAGON
+0x01d72969: GENETIC
+0x01d72971: NEW SPECIE
+0x01d7298b: FIRE MOUSE
+0x01d72996: VOLCANO
+0x01d7299e: VOLCANO
+0x01d729a6: BIG JAW
+0x01d729ae: BIG JAW
+0x01d729b6: BIG JAW
+0x01d729c4: LONG BODY
+0x01d729d6: FIVE STAR
+0x01d729e0: FIVE STAR
+0x01d729ea: STRING SPIT
+0x01d729f6: LONG LEG
+0x01d72a03: ANGLER
+0x01d72a10: TINY MOUSE
+0x01d72a1b: STARSHAPE
+0x01d72a25: BALLOON
+0x01d72a2d: SPIKE BALL
+0x01d72a38: HAPPINESS
+0x01d72a42: LITTLE BIRD
+0x01d72a4e: MYSTIC
+0x01d72a65: FLOWER
+0x01d72a6c: AQUAMOUSE
+0x01d72a76: AQUARABBIT
+0x01d72a81: IMITATION
+0x01d72a90: COTTONWEED
+0x01d72a9b: COTTONWEED
+0x01d72aa6: COTTONWEED
+0x01d72ab1: LONG TAIL
+0x01d72ac4: CLEAR WING
+0x01d72acf: WATER FISH
+0x01d72ada: WATER FISH
+0x01d72ae9: MOONLIGHT
+0x01d72af3: DARKNESS
+0x01d72b02: SCREECH
+0x01d72b0a: SYMBOL
+0x01d72b11: PATIENT
+0x01d72b19: LONG NECK
+0x01d72b23: BAGWORM
+0x01d72b2b: BAGWORM
+0x01d72b33: LAND SNAKE
+0x01d72b3e: FLYSCORPIO
+0x01d72b49: IRON SNAKE
+0x01d72b60: BALLOON
+0x01d72b68: SCISSORS
+0x01d72b76: SINGLE HORN
+0x01d72b82: SHARP CLAW
+0x01d72b8d: LITTLE BEAR
+0x01d72b99: HIBERNANT
+0x01d72bc5: DELIVERY
+0x01d72bd3: ARMOR BIRD
+0x01d72be8: DRAGON
+0x01d72bef: LONG NOSE
+0x01d72bff: VIRTUAL
+0x01d72c07: BIG HORN
+0x01d72c10: PAINTER
+0x01d72c18: SCUFFLE
+0x01d72c20: HANDSTAND
+0x01d72c2f: ELECTRIC
+0x01d72c38: LIVE COAL
+0x01d72c42: MILK COW
+0x01d72c4b: HAPPINESS
+0x01d72c55: THUNDER
+0x01d72c5d: VOLCANO
+0x01d72c65: AURORA
+0x01d72c6c: ROCK SKIN
+0x01d72c76: HARD SHELL
+0x01d72c87: DIVING
+0x01d72c8e: RAINBOW
+0x01d72c96: TIMETRAVEL
+0x01d73106: 4' 11"
+0x01d7311f: 3' 11"
+0x01d7312c: 11' 6"
+0x01d73163: 2' 11"
+0x01d731ac: 3' 11"
+0x01d731c5: 4' 11"
+0x01d7321a: 2' 11"
+0x01d73227: 4' 11"
+0x01d73234: 4' 11"
+0x01d73253: 2' 11"
+0x01d7327e: 3' 11"
+0x01d732a3: 5' 11"
+0x01d732b6: 2' 11"
+0x01d732bd: 3' 11"
+0x01d732ca: 4' 11"
+0x01d732dd: 4' 11"
+0x01d732e4: 28' 10"
+0x01d7330a: 3' 11"
+0x01d73329: 4' 11"
+0x01d73336: 3' 11"
+0x01d73343: 3' 11"
+0x01d7336e: 3' 11"
+0x01d73393: 4' 11"
+0x01d733ac: 4' 11"
+0x01d733b9: 2' 11"
+0x01d733c0: 21' 4"
+0x01d733e5: 2' 11"
+0x01d7340a: 5' 11"
+0x01d73411: 6' 11"
+0x01d7342a: 5' 11"
+0x01d73431: 13' 1"
+0x01d7344a: 2' 11"
+0x01d73451: 3' 11"
+0x01d73458: 5' 11"
+0x01d73465: 2' 11"
+0x01d7348a: 5' 11"
+0x01d734b5: 5' 11"
+0x01d734c2: 3' 11"
+0x01d734ed: 4' 11"
+0x01d73518: 3' 11"
+0x01d73549: 3' 11"
+0x01d7355c: 2' 11"
+0x01d73587: 4' 11"
+0x01d73594: 3' 11"
+0x01d7359b: 4' 11"
+0x01d735a8: 30' 2"
+0x01d735c1: 5' 11"
+0x01d735ce: 4' 11"
+0x01d735d5: 2' 11"
+0x01d735e2: 5' 11"
+0x01d7360d: 2' 11"
+0x01d73614: 2' 11"
+0x01d7361b: 6' 11"
+0x01d73634: 5' 11"
+0x01d73653: 3' 11"
+0x01d73678: 3' 11"
+0x01d7367f: 4' 11"
+0x01d7368c: 6' 11"
+0x01d7369f: 3' 11"
+0x01d736ac: 17' 1"
+0x01d736b3: 12' 6"
+0x01d73abc: 221.0 
+0x01d73acf: 200.0 
+0x01d73ae2: 189.0 
+0x01d73b38: 143.0 
+0x01d73b63: 132.0 
+0x01d73b76: 137.0 
+0x01d73ba7: 121.0 
+0x01d73bf4: 169.0 
+0x01d73c0d: 342.0 
+0x01d73c20: 119.0 
+0x01d73c2d: 125.0 
+0x01d73c34: 106.0 
+0x01d73c41: 155.0 
+0x01d73c48: 287.0 
+0x01d73c60: 100.0 
+0x01d73c67: 121.0 
+0x01d73c74: 232.0 
+0x01d73c7b: 662.0 
+0x01d73c88: 209.0 
+0x01d73c95: 173.0 
+0x01d73ca2: 132.0 
+0x01d73cb5: 188.0 
+0x01d73cbc: 198.0 
+0x01d73cc3: 265.0 
+0x01d73cdb: 292.0 
+0x01d73cf2: 463.0 
+0x01d73cff: 167.0 
+0x01d73d0c: 132.0 
+0x01d73d19: 147.0 
+0x01d73d25: 265.0 
+0x01d73d38: 110.0 
+0x01d73d3f: 111.0 
+0x01d73d46: 144.0 
+0x01d73d58: 254.0 
+0x01d73d5f: 265.0 
+0x01d73d72: 176.0 
+0x01d73d97: 176.0 
+0x01d73d9e: 120.0 
+0x01d73da5: 123.0 
+0x01d73dbe: 121.0 
+0x01d73dc5: 195.0 
+0x01d73dd2: 518.0 
+0x01d73dd9: 485.0 
+0x01d73e1b: 130.0 
+0x01d73e22: 1014.0 
+0x01d73e2a: 122.0 
+0x01d73e31: 116.0 
+0x01d73e38: 132.0 
+0x01d73e4a: 463.0 
+0x01d73e51: 269.0 
+0x01d73e69: 222.0 
+0x01d73e7c: 175.0 
+0x01d73e8f: 196.0 
+0x01d73ec6: 165.0 
+0x01d73f09: 136.0 
+0x01d73f5a: 165.0 
+0x01d73f72: 175.0 
+0x01d73f96: 277.0 
+0x01d73fa3: 143.0 
+0x01d73faa: 882.0 
+0x01d73fb7: 107.0 
+0x01d73fc3: 260.0 
+0x01d73fd0: 119.0 
+0x01d73fe3: 277.0 
+0x01d73ff0: 121.0 
+0x01d73ffd: 123.0 
+0x01d7401c: 485.0 
+0x01d74023: 111.0 
+0x01d74036: 335.0 
+0x01d74043: 265.0 
+0x01d74050: 157.0 
+0x01d74057: 128.0 
+0x01d74064: 106.0 
+0x01d7407d: 166.0 
+0x01d74084: 103.0 
+0x01d7408b: 392.0 
+0x01d74092: 437.0 
+0x01d74099: 412.0 
+0x01d740a0: 159.0 
+0x01d740a7: 335.0 
+0x01d740ae: 445.0 
+0x01d740b5: 476.0 
+0x01d740bc: 439.0 
+0x01d7450e: as its body grows.
+0x01d74574: grow larger.
+0x01d745d3: its body with power.
+0x01d7463d: also burns weakly.
+0x01d746a1: only when it wins.
+0x01d74702: whitish-blue color.
+0x01d7476d: bounce off it.
+0x01d747ca: WARTORTLE is very old.
+0x01d74830: jets it fires.
+0x01d7488d: drive away enemies.
+0x01d748f8: the shell.
+0x01d7495a: to its nest.
+0x01d749b8: off its enemies.
+0x01d74a1c: is attacked.
+0x01d74a77: attacks in swarms.
+0x01d74ade: kicking up sand.
+0x01d74b3f: movements of its prey.
+0x01d74ba0: windstorm with just a few flaps.
+0x01d74c0f: offspring continuously.
+0x01d74c78: gnawing on them.
+0x01d74cd7: them with its stubby beak.
+0x01d74d44: to strike its prey.
+0x01d74daa: to move, however.
+0x01d74e0b: the frightened victim.
+0x01d74e6d: tender enough to eat.
+0x01d74edb: than usual.
+0x01d74f36: a ball and bouncing.
+0x01d74f9f: dust storm.
+0x01d74ffc: have fatal results.
+0x01d75066: the offspring.
+0x01d750c4: from any attack.
+0x01d75125: horn to inject poison.
+0x01d75188: attacks immediately.
+0x01d751f7: sturdy body.
+0x01d7525a: to float in midair.
+0x01d752bf: quiet places.
+0x01d75325: and cuddly.
+0x01d75383: mystical power.
+0x01d753e6: in its audience.
+0x01d75435: they won't want to be separated.
+0x01d754a5: surroundings.
+0x01d75503: itself with blood.
+0x01d75566: underground.
+0x01d755c2: stubbornly if touched.
+0x01d75628: clouds of toxic pollen.
+0x01d75690: sprout from its back.
+0x01d756fa: mushrooms on its back.
+0x01d75764: darkness.
+0x01d757c2: all around.
+0x01d75822: grow weak.
+0x01d7587d: easier for it to burrow.
+0x01d758e8: and falls asleep.
+0x01d7594d: little reason.
+0x01d759ac: always looks puzzled.
+0x01d75a18: to glow.
+0x01d75a72: reason.
+0x01d75ad0: semi-sleep.
+0x01d75b29: stronger foes.
+0x01d75b82: enchanted by its grand mane.
+0x01d75bf1: water.
+0x01d75c43: drowsiness.
+0x01d75ca2: by kicking.
+0x01d75cf2: actual attacks can strike.
+0x01d75d5d: psychic power.
+0x01d75dbd: abilities to their extremes.
+0x01d75e31: stronger.
+0x01d75e85: never gets tired.
+0x01d75ee8: chops from all angles.
+0x01d75fa4: neutralizing fluid.
+0x01d75fff: effective at attracting prey.
+0x01d7605f: washed up on the shore.
+0x01d760c8: and enemies.
+0x01d76125: GEODUDE around.
+0x01d7618e: mountains.
+0x01d761e4: crumbles away.
+0x01d7623f: chasing after its parents.
+0x01d76300: notice for a whole day.
+0x01d7636c: ordinary SLOWPOKE.
+0x01d76436: get too close.
+0x01d76493: own stick to thwart them.
+0x01d76505: while running.
+0x01d76564: become immobilized.
+0x01d765d1: in frigid seas.
+0x01d76630: friskier it gets.
+0x01d76694: the stench around it.
+0x01d766fa: around them worse.
+0x01d76758: surprisingly fast.
+0x01d767bf: strength.
+0x01d7681c: blown away by wind.
+0x01d7687e: its next victim.
+0x01d768df: that a GENGAR appeared.
+0x01d76946: echoes a long way.
+0x01d769aa: probably eaten it.
+0x01d76a0f: dreams.
+0x01d76a70: look bigger.
+0x01d76ad4: to aim properly.
+0x01d76b36: cause it to explode.
+0x01d76b95: amuses itself by exploding.
+0x01d76c03: contents.
+0x01d76c57: appear to squabble.
+0x01d76cc1: sound.
+0x01d76d18: messages to others.
+0x01d76d7c: from any position.
+0x01d76dd8: fighting for three minutes.
+0x01d76e47: manipulated.
+0x01d76ea7: teary eyes.
+0x01d76f04: its poisonous gases.
+0x01d76f6e: one direction.
+0x01d76fd2: it insensitive.
+0x01d77038: running away.
+0x01d77099: its foes.
+0x01d770f9: eye on the youngster.
+0x01d77164: dorsal fin.
+0x01d771c1: It became a hot topic.
+0x01d7722c: as the water dancer.
+0x01d7728d: brilliant red.
+0x01d772ed: heartbeat.
+0x01d77349: each time it is seen.
+0x01d773b1: matures.
+0x01d77409: eye to track.
+0x01d7746d: feeling.
+0x01d774cc: whitish-blue.
+0x01d77528: suitable for itself.
+0x01d77594: to its body.
+0x01d775f1: battle-scarred horns.
+0x01d77658: more than seven feet.
+0x01d7771a: number has dwindled.
+0x01d77780: being attacked.
+0x01d777e0: environment.
+0x01d77842: hours.
+0x01d77895: wicked lightning bolts.
+0x01d77901: over 3,000 degrees.
+0x01d77960: it in any environment.
+0x01d779c1: to sink and rise in water.
+0x01d77a2c: insides.
+0x01d77a87: on the ocean floor.
+0x01d77aeb: shell to swim fast.
+0x01d77b52: wings and gliding.
+0x01d77bb8: belly.
+0x01d77c0f: said to be made of ice.
+0x01d77c6f: glittering wings.
+0x01d77cce: thrilling sight to behold.
+0x01d77d35: grows longer.
+0x01d77d94: change instantly.
+0x01d77df6: drowning people.
+0x01d77e59: defeating its foes.
+0x01d77eba: strong desire to see it.
+0x01d77f28: up the sun's rays.
+0x01d77f8f: to fight.
+0x01d77fde: aggressive feelings.
+0x01d7804d: protection.
+0x01d780aa: the fire on its back.
+0x01d78115: up in flames.
+0x01d78173: trainer must be careful.
+0x01d781e4: its mouth.
+0x01d78241: tears its victim up.
+0x01d782a2: view of its surroundings.
+0x01d78313: MON to enter.
+0x01d783c9: to see in the dark.
+0x01d7843b: a group.
+0x01d78495: powder.
+0x01d784f3: to wander close.
+0x01d78557: which end is which.
+0x01d785c3: when nearby.
+0x01d78618: antennae and zaps its enemies.
+0x01d7868d: of over three miles.
+0x01d786ea: amused or startled.
+0x01d78748: here on a meteor.
+0x01d787a8: impossible to stop.
+0x01d78810: treated kindly.
+0x01d7886a: them with happiness.
+0x01d788d3: staring at something.
+0x01d78937: future at the same time.
+0x01d789a9: shock you.
+0x01d789fc: even downy wool won't grow.
+0x01d78a6a: for lost people.
+0x01d78ace: to summon the sun.
+0x01d78b3a: drowning.
+0x01d78b9b: rivers.
+0x01d78bf7: rock than a plant.
+0x01d78c53: from far and wide.
+0x01d78cb8: gentle breezes, though.
+0x01d78d1f: and down.
+0x01d78d77: even around the world.
+0x01d78de5: the air.
+0x01d78e3f: shake its leaves.
+0x01d78e9f: petals and becomes still.
+0x01d78f0a: windows in the area.
+0x01d78f71: it gets cold outside.
+0x01d78fdc: boat hulls.
+0x01d79039: enemy's actions.
+0x01d79097: its pores.
+0x01d790f9: at night.
+0x01d79156: and collected.
+0x01d791bc: night. 
+0x01d79213: are somehow related.
+0x01d7927b: strike.
+0x01d792d4: your scent and bite.
+0x01d79341: doesn't bother it.
+0x01d793a8: total mystery.
+0x01d79400: ground with its tail.
+0x01d79468: inject poison.
+0x01d794ca: than a diamond.
+0x01d7952a: popular among women.
+0x01d79595: attacker.
+0x01d795f3: water all at once.
+0x01d7965b: has three heads.
+0x01d796b6: liquid.
+0x01d79712: and throws them.
+0x01d7976c: and startles its enemy.
+0x01d797da: soaked with honey.
+0x01d79846: BERRIES.
+0x01d7989c: would cool and harden.
+0x01d7990a: a slight touch.
+0x01d7996a: hot springs.
+0x01d799ca: repeatedly.
+0x01d79a2b: beauty.
+0x01d79a7f: from more than 300 feet.
+0x01d79ae6: rock-hard head.
+0x01d79b48: the food it had.
+0x01d79baf: leftovers.
+0x01d79c12: freely in the sky.
+0x01d79c74: for pursuing its prey.
+0x01d79d26: whirlpools by yawning.
+0x01d79d91: dangerous.
+0x01d79de7: knock down a house.
+0x01d79e48: fly, though.
+0x01d79ea6: reality is distorted.
+0x01d79f0e: mark its territory.
+0x01d79f78: if it loses.
+0x01d79fd3: drilled hard.
+0x01d7a035: examine things.
+0x01d7a08d: charges up only a little bit.
+0x01d7a0ff: nostrils.
+0x01d7a15c: weary.
+0x01d7a1ae: and pleasant to everyone.
+0x01d7a216: descended with lightning.
+0x01d7a27e: headlong around the land.
+0x01d7a2ec: water.
+0x01d7a3a0: topple a mountain.
+0x01d7a3ff: challenges against enemies.
+0x01d7a470: powers are too strong.
+0x01d7a4ce: magnificent seven colored wings.
+0x01d7a53c: which it has appeared.
+0x01d7a9a1: grows larger.
+0x01d7aa02: will soon bloom.
+0x01d7aa67: summertime.
+0x01d7aabe: the flame burns brightly.
+0x01d7ab28: away with sharp claws.
+0x01d7ab8f: terrible pain on enemies.
+0x01d7abff: bounce back out.
+0x01d7ac5b: swimming.
+0x01d7acb2: through thick steel.
+0x01d7ad1a: trees to forage.
+0x01d7ad7f: soft body.
+0x01d7add7: heaviest of rains.
+0x01d7ae41: leaves it eats.
+0x01d7aea6: shell hardens.
+0x01d7af00: poison.
+0x01d7af5c: flapping up sand.
+0x01d7afbc: more than 60 miles to its nest.
+0x01d7b02e: speed.
+0x01d7b087: entire day.
+0x01d7b0e7: to pare them down.
+0x01d7b14e: high speed.
+0x01d7b1ae: the ground.
+0x01d7b213: harmless.
+0x01d7b271: targets its prey.
+0x01d7b2c7: struck by lightning in this pose.
+0x01d7b33a: straight up.
+0x01d7b39d: into a ball.
+0x01d7b3fc: back in a day.
+0x01d7b45d: threatened in any way.
+0x01d7b4c6: fight.
+0x01d7b51d: young from predators.
+0x01d7b580: senses any danger.
+0x01d7b5e6: becomes agitated.
+0x01d7b64d: quite easily.
+0x01d7b6ac: is rarely found.
+0x01d7b711: quiet places.
+0x01d7b76f: fool the enemy and escapes.
+0x01d7b7df: for 1,000 years.
+0x01d7b844: enemies to sleep.
+0x01d7b8a9: and hit with a BODY SLAM.
+0x01d7b917: obstacles.
+0x01d7b977: and flies clumsily.
+0x01d7b9d9: scatter its seeds.
+0x01d7ba3f: get very close.
+0x01d7ba9c: poisonous pollen.
+0x01d7baf1: sprouting out of its back.
+0x01d7bb58: it scatters.
+0x01d7bbb7: are attracted by light.
+0x01d7bc26: paralysis.
+0x01d7bc82: for planting crops.
+0x01d7bce5: over 60 miles.
+0x01d7bd3f: and secretly hoards.
+0x01d7bda0: instant.
+0x01d7bdf6: recall such an episode.
+0x01d7be5e: glows mysteriously.
+0x01d7bebf: distinguish friends from foes.
+0x01d7bf32: that meets its glare.
+0x01d7bf9c: from harm.
+0x01d7bff9: grovel before it.
+0x01d7c060: effect on this.
+0x01d7c0c3: smooth.
+0x01d7c177: copies of itself.
+0x01d7c1d7: malfunction.
+0x01d7c232: everything.
+0x01d7c293: hard all day long.
+0x01d7c2f3: amazing sense of strength.
+0x01d7c361: over the horizon.
+0x01d7c3c5: while it's rooted.
+0x01d7c429: then eats every morsel.
+0x01d7c492: in its mouth.
+0x01d7c4fa: it stings.
+0x01d7c5b6: if angered.
+0x01d7c613: to be in its path.
+0x01d7c67d: to mountain.
+0x01d7c6db: it senses behind it.
+0x01d7c745: ten steps.
+0x01d7c79c: pleasant to chew on.
+0x01d7c802: seeping poison.
+0x01d7c85d: aloft in the air.
+0x01d7c8c3: vicinity.
+0x01d7c91f: of a new stick.
+0x01d7c97c: to four inches deep.
+0x01d7c9e3: stop squabbling.
+0x01d7ca47: close while it swims.
+0x01d7cab5: quickly.
+0x01d7cb0c: ever grow again.
+0x01d7cb70: that requires bed rest.
+0x01d7cbd8: pearls.
+0x01d7cc31: their shells.
+0x01d7cc8e: suffocation.
+0x01d7ccec: death eventually comes.
+0x01d7cd58: for an opportunity.
+0x01d7cdb8: massive, rugged body.
+0x01d7ce1c: children's are much tastier.
+0x01d7ce8d: anyone nearby.
+0x01d7cef0: walking sideways.
+0x01d7cf55: balance and staggers.
+0x01d7cfbc: connection.
+0x01d7d013: small shock makes it explode.
+0x01d7d07a: EXEGGCUTE.
+0x01d7d0d4: EXEGGCUTE cluster.
+0x01d7d135: hidden face looks like.
+0x01d7d19e: the world, rumors say.
+0x01d7d261: graze could cause a burn.
+0x01d7d2cd: useful.
+0x01d7d323: slightly airborne.
+0x01d7d384: the highest level.
+0x01d7d3e9: obstacles.
+0x01d7d447: even in magma.
+0x01d7d4ab: who catches it.
+0x01d7d513: ensnared.
+0x01d7d574: it is.
+0x01d7d5ca: facing forward.
+0x01d7d62b: herbal medicine.
+0x01d7d68c: speed of five knots.
+0x01d7d6f7: from washing away.
+0x01d7d762: intact.
+0x01d7d7ba: geometric shape.
+0x01d7d878: it invisible.
+0x01d7d8d7: to communicate.
+0x01d7d931: your hair stand on end.
+0x01d7d99f: the sun.
+0x01d7d9f8: forests.
+0x01d7da51: charges at full speed.
+0x01d7dab6: PIDGEOTTO to catch it mid-jump.
+0x01d7db24: everything around it.
+0x01d7db8f: in a good mood.
+0x01d7dbf3: its disguise.
+0x01d7dc4c: if its environment changes.
+0x01d7dcbd: water.
+0x01d7dd15: electricity.
+0x01d7dd72: 1,650 degrees.
+0x01d7ddcd: with only basic motions.
+0x01d7de33: twisting its 10 tentacles.
+0x01d7dea0: with sharp fangs.
+0x01d7df04: a living fossil.
+0x01d7df67: body fluids.
+0x01d7dfc0: high-pitched cries.
+0x01d7e020: eat things off the ground.
+0x01d7e086: create snow while flying.
+0x01d7e0ed: into two halves.
+0x01d7e14f: visits.
+0x01d7e1a4: steadily larger.
+0x01d7e202: the weather.
+0x01d7e253: over raging seas without trouble.
+0x01d7e2c7: power in battle.
+0x01d7e327: kinds of techniques.
+0x01d7e386: temperature.
+0x01d7e3e1: restore health.
+0x01d7e43e: them healthy again.
+0x01d7e4a3: of its back.
+0x01d7e4f8: kind of fire attack.
+0x01d7e55f: explosions.
+0x01d7e5bd: that moves.
+0x01d7e611: biting, they grow back in.
+0x01d7e684: But it moves fast.
+0x01d7e6ed: to warn its kind.
+0x01d7e751: hunting RATTATA.
+0x01d7e7b1: tilting its head in time.
+0x01d7e81f: power.
+0x01d7e86c: cluster and keep each other warm.
+0x01d7e8de: stars in the night sky.
+0x01d7e948: to be trapped.

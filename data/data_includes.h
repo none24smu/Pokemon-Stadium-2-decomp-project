@@ -5,5 +5,7 @@
 #include "move_data_tables.h"
 #include "pokemon_names.h"
 #include "type_effectiveness_charts.h"
+#include "all_text_data.h"
+#include "move_names.h"
 
 #endif

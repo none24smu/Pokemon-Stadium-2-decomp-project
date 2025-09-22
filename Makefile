@@ -94,7 +94,7 @@ $(BUILD_DIR)/%.o: data/%.c
 # Include data objects in build
 DATA_OBJS = $(patsubst data/%.c, $(BUILD_DIR)/%.o, $(wildcard data/*.c))
 $(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
-	$(MIPS_CC) -c $< -o $@ -Iinclude -I$(BUILD_DIR) -G 0 -O1 -Wall -Wno-all -mno-branch-likely -Wa,-mno-check-long-branch -msoft-float -mno-abicalls -mno-llsc
+	$(MIPS_CC) -c $< -o $@ -Iinclude -I$(BUILD_DIR) -G 0 -O1 -Wall -Wno-all -mno-branch-likely -Wa,-mno-check-long-branch -msoft-float -mno-abicalls -mno-llsc -fomit-frame-pointer -ffreestanding
 # Compile source files
 # Compile data files
 $(BUILD_DIR)/%.o: data/%.c
