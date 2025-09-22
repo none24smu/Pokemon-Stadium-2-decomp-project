@@ -72,6 +72,11 @@ decompile:
 	python3 $(MIPS_ANALYZER) $(ROM_FILE) analyze $(ADDR)
 
 # Build the project (after decompilation)
+# Build data files
+build-data: $(DATA_OBJS)
+	@echo "Data files built"
+
+.PHONY: build-data
 # Check for MIPS compiler
 ifeq (, $(shell which $(MIPS_CC)))
   $(error "MIPS compiler $(MIPS_CC) not found. Install with: sudo apt install gcc-mips-linux-gnu")
@@ -82,9 +87,21 @@ build: $(BUILD_DIR)/pokemon_stadium_2.elf
 $(BUILD_DIR)/pokemon_stadium_2.elf: $(patsubst $(SRC_DIR)/%.c, $(BUILD_DIR)/%.o, $(wildcard $(SRC_DIR)/*.c))
 	$(MIPS_CC) -nostdlib -T linker_scripts/$(PROJECT_NAME).ld -o $@ $^
 # Compile source files
+# Compile data files
+$(BUILD_DIR)/%.o: data/%.c
+	$(MIPS_CC) -c $< -o $@ -Idata
+
+# Include data objects in build
+DATA_OBJS = $(patsubst data/%.c, $(BUILD_DIR)/%.o, $(wildcard data/*.c))
 $(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
-	$(MIPS_CC) -c $< -o $@ -Iinclude -I$(BUILD_DIR) -G 0 -O1 -Wall -Wno-all -mno-branch-likely
+	$(MIPS_CC) -c $< -o $@ -Iinclude -I$(BUILD_DIR) -G 0 -O1 -Wall -Wno-all -mno-branch-likely -Wa,-mno-check-long-branch -msoft-float -mno-abicalls -mno-llsc
 # Compile source files
+# Compile data files
+$(BUILD_DIR)/%.o: data/%.c
+	$(MIPS_CC) -c $< -o $@ -Idata
+
+# Include data objects in build
+DATA_OBJS = $(patsubst data/%.c, $(BUILD_DIR)/%.o, $(wildcard data/*.c))
 $(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
 	$(MIPS_CC) -c $< -o $@ -Iinclude
 # Build individual segments
