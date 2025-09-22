@@ -83,7 +83,7 @@ $(BUILD_DIR)/pokemon_stadium_2.elf: $(patsubst $(SRC_DIR)/%.c, $(BUILD_DIR)/%.o,
 	$(MIPS_CC) -nostdlib -T linker_scripts/$(PROJECT_NAME).ld -o $@ $^
 # Compile source files
 $(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
-	$(MIPS_CC) -c $< -o $@ -Iinclude -I$(BUILD_DIR) -G 0 -O2 -Wall
+	$(MIPS_CC) -c $< -o $@ -Iinclude -I$(BUILD_DIR) -G 0 -O1 -Wall -Wno-all -mno-branch-likely
 # Compile source files
 $(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
 	$(MIPS_CC) -c $< -o $@ -Iinclude
