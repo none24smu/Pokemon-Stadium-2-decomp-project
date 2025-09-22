@@ -1,67 +1,3 @@
-/*
- * Function: 0x801d71e8
- * Category: math
- */
-
-// Decompiled C code
-int fcn.801d69dc (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// } else {
-// } while (?);
-// } while (?);
-}
-return eax;
-// }
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-// } else {
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.801d69dc (int esi, int edx) {
     loc_0x801d69dc:
         // CALL XREF from fcn.8217ac0c @ +0xbc8
@@ -597,5 +533,3 @@ int fcn.801d69dc (int esi, int edx) {
          byte [v1 + 0] = t6
 
 }
-
-*/

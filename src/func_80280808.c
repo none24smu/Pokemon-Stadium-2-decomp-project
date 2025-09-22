@@ -1,20 +1,3 @@
-/*
- * Function: 0x80280808
- * Category: battle
- */
-
-// Decompiled C code
-int fcn.80280800 (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
             [38;2;197;15;31m[38;2;197;15;31m; XREFS: [38;2;197;15;31mCALL 0x82a83878  [38;2;197;15;31mCALL 0x82a86478  [38;2;197;15;31mCALL 0x82a9ee08  [0m
             [38;2;197;15;31m[38;2;197;15;31m; XREFS: [38;2;197;15;31mCODE 0x82aa5c24  [38;2;197;15;31mCODE 0x82c7f71c  [38;2;197;15;31mCALL 0x82cf8e78  [0m
             [38;2;197;15;31m[38;2;197;15;31m; XREFS: [38;2;197;15;31mCODE 0x82df2858  [38;2;197;15;31mCALL 0x82df9918  [0m
@@ -107,5 +90,3 @@ int fcn.80280800 (int esi, int edx) {
              [at + 0x46f0] = 0
 
 }
-
-*/

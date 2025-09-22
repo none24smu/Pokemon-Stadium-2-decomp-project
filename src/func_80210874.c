@@ -1,14 +1,3 @@
-/*
- * Function: 0x80210874
- * Category: math
- */
-
-// Decompiled C code
-int fcn.8021edac (int esi, int edx) {
-}
-
-/*
-// Full radare2 output
 int fcn.8021edac (int esi, int edx) {
     loc_0x801eca20:
         if            // unlikely
@@ -8993,5 +8982,3 @@ int fcn.8021edac (int esi, int edx) {
          s1 = [a1 + 0x14]         // arg2 // t9
 
 }
-
-*/

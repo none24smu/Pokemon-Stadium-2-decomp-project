@@ -1,22 +1,3 @@
-/*
- * Function: 0x8048b26c
- * Category: math
- */
-
-// Decompiled C code
-int fcn.8048b234 (int esi, int edx) {
-// do {
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
             [38;2;197;15;31m[38;2;197;15;31m; CALL XREF from fcn.80b2871c @ [38;2;197;15;31m+0x994[38;2;197;15;31m[0m
 [38;2;58;150;221m┌[0m 96: [38;2;197;15;31mfcn.8048b234[0m (int64_t arg4, int64_t arg_1ch);
 [38;2;58;150;221m│[0m           [38;2;204;204;204m; [38;2;204;204;204marg [38;2;0;55;218mint64_t arg_1ch [38;2;58;150;221m@ sp+0x1c[0m
@@ -117,5 +98,3 @@ int fcn.8048b234 (int esi, int edx) {
              ra = [sp + 0x1c]
 
 }
-
-*/

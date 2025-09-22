@@ -1,62 +1,3 @@
-/*
- * Function: 0x803d6e14
- * Category: math
- */
-
-// Decompiled C code
-int fcn.803c5568 (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.803c5568 (int esi, int edx) {
     loc_0x803c5568:
         // CALL XREF from fcn.824b9b50 @ +0x188
@@ -3008,5 +2949,3 @@ int fcn.803c5568 (int esi, int edx) {
          halfword [t8 + 0x44] = t7
 
 }
-
-*/

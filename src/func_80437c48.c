@@ -1,19 +1,3 @@
-/*
- * Function: 0x80437c48
- * Category: battle
- */
-
-// Decompiled C code
-int fcn.80437c38 (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
             [38;2;197;15;31m[38;2;197;15;31m; CALL XREF from fcn.834f7bd8 @ [38;2;197;15;31m+0x3c4[38;2;197;15;31m[0m
             [38;2;197;15;31m[38;2;197;15;31m; CALL XREF from fcn.83510604 @ [38;2;197;15;31m+0x5d4[38;2;197;15;31m[0m
 [38;2;58;150;221m┌[0m 108: [38;2;197;15;31mfcn.80437c38[0m ();
@@ -113,5 +97,3 @@ int fcn.80437c38 (int esi, int edx) {
          v0 = 0
 
 }
-
-*/

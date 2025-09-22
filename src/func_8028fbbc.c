@@ -1,17 +1,3 @@
-/*
- * Function: 0x8028fbbc
- * Category: math
- */
-
-// Decompiled C code
-int fcn.802a91c8 (int esi, int edx) {
-// } else {
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.802a91c8 (int esi, int edx) {
     loc_0x80287e74:
         s4 = a2
@@ -12747,5 +12733,3 @@ int fcn.802a91c8 (int esi, int edx) {
          sp += 0x30
 
 }
-
-*/

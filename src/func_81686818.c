@@ -1,22 +1,3 @@
-/*
- * Function: 0x81686818
- * Category: math
- */
-
-// Decompiled C code
-int fcn.816730c0 (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// } else {
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.816730c0 (int esi, int edx) {
     loc_0x816730c0:
         // CALL XREF from fcn.80b29a30 @ +0x7f0
@@ -1431,5 +1412,3 @@ int fcn.816730c0 (int esi, int edx) {
          sp += 0x60
 
 }
-
-*/

@@ -1,18 +1,3 @@
-/*
- * Function: 0x803fb2dc
- * Category: math
- */
-
-// Decompiled C code
-int fcn.803dc1fc (int esi, int edx) {
-// do {
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.803dc1fc (int esi, int edx) {
     loc_0x803bedc8:
         swc1 f4, 0x68, v0
@@ -4033,5 +4018,3 @@ int fcn.803dc1fc (int esi, int edx) {
          at = 0 + 0x64
 
 }
-
-*/

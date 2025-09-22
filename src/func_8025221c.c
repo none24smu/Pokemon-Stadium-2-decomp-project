@@ -1,17 +1,3 @@
-/*
- * Function: 0x8025221c
- * Category: math
- */
-
-// Decompiled C code
-int fcn.802482c8 (int esi, int edx) {
-// } else {
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.802482c8 (int esi, int edx) {
     loc_0x802482c8:
         // CALL XREF from fcn.83b4d8fc @ +0x1420
@@ -2433,5 +2419,3 @@ int fcn.802482c8 (int esi, int edx) {
          
 
 }
-
-*/

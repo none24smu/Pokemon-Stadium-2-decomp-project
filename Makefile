@@ -9,7 +9,7 @@ SPLAT_CONFIG ?= splat_configs/$(PROJECT_NAME).yaml
 ROM_ANALYZER = tools/rom_analyzer.py
 MIPS_ANALYZER = tools/mips_analyzer.py
 SPLAT = splat
-MIPS_CC = mips-linux-gnu-gcc
+MIPS_CC = mips-linux-gnu-gcc-10
 RADARE2 = radare2
 
 # Directories

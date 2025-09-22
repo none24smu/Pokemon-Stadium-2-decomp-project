@@ -1,19 +1,3 @@
-/*
- * Function: 0x80181820
- * Category: math
- */
-
-// Decompiled C code
-int fcn.80181818 (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
             [38;2;197;15;31m[38;2;197;15;31m; CALL XREF from fcn.829b2c70 @ [38;2;197;15;31m+0x474[38;2;197;15;31m[0m
             [38;2;197;15;31m[38;2;197;15;31m; CODE XREF from fcn.82c0848c @ [38;2;197;15;31m+0x80[38;2;197;15;31m[0m
 [38;2;58;150;221m┌[0m 24: [38;2;197;15;31mfcn.80181818[0m (int64_t arg1);
@@ -54,5 +38,3 @@ int fcn.80181818 (int esi, int edx) {
         }
         return eax;
 }
-
-*/

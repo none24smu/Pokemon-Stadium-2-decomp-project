@@ -1,18 +1,3 @@
-/*
- * Function: 0x8041a010
- * Category: math
- */
-
-// Decompiled C code
-int fcn.8041a010 (int esi, int edx) {
-// do {
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 [38;2;58;150;221m┌[0m 4: [38;2;197;15;31mfcn.8041a010[0m ();
 [38;2;58;150;221m└[0m           [38;2;19;161;14m0x8041a010[0m      [38;2;19;161;14m00[38;2;19;161;14m00[38;2;19;161;14m00[38;2;19;161;14m00[0m       [38;2;0;55;218mnop[0m[0m[0m
 int fcn.8041a010 (int esi, int edx) {
@@ -35,5 +20,3 @@ int fcn.8041a010 (int esi, int edx) {
         }
         return eax;
 }
-
-*/

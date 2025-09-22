@@ -1,23 +1,3 @@
-/*
- * Function: 0x803e1d44
- * Category: math
- */
-
-// Decompiled C code
-int fcn.803c507c (int esi, int edx) {
-// do {
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.803c507c (int esi, int edx) {
     loc_0x803a6a48:
         [sp + 0xd8] = s2
@@ -2262,5 +2242,3 @@ int fcn.803c507c (int esi, int edx) {
          s2 = [sp + 0x3c]
 
 }
-
-*/

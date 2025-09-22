@@ -1,26 +1,3 @@
-/*
- * Function: 0x80410450
- * Category: math
- */
-
-// Decompiled C code
-int fcn.80400424 (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.80400424 (int esi, int edx) {
     loc_0x80400424:
         // CALL XREF from fcn.824b6be0 @ +0x1f8
@@ -2094,5 +2071,3 @@ int fcn.80400424 (int esi, int edx) {
          sp += 0x60
 
 }
-
-*/

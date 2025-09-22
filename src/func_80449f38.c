@@ -1,30 +1,3 @@
-/*
- * Function: 0x80449f38
- * Category: math
- */
-
-// Decompiled C code
-int fcn.8043b044 (int esi, int edx) {
-// } else {
-// } else {
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-// } else {
-// } while (?);
-// } while (?);
-// } while (?);
-}
-
-/*
-// Full radare2 output
 int fcn.8043b044 (int esi, int edx) {
     loc_0x8043b044:
         // CALL XREF from fcn.83bbcc38 @ +0xa30
@@ -1963,5 +1936,3 @@ int fcn.8043b044 (int esi, int edx) {
          ra = [sp + 0x1c]
 
 }
-
-*/

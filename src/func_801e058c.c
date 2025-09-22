@@ -1,42 +1,3 @@
-/*
- * Function: 0x801e058c
- * Category: math
- */
-
-// Decompiled C code
-int fcn.801c95d4 (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.801c95d4 (int esi, int edx) {
     loc_0x801c95d4:
         // CALL XREF from fcn.80ae91cc @ +0x2fc
@@ -4495,5 +4456,3 @@ int fcn.801c95d4 (int esi, int edx) {
          s0 = 0
 
 }
-
-*/

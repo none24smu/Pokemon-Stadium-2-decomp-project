@@ -1,20 +1,3 @@
-/*
- * Function: 0x8037f1dc
- * Category: math
- */
-
-// Decompiled C code
-int fcn.803742ac (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.803742ac (int esi, int edx) {
     loc_0x803742ac:
         // CALL XREF from fcn.83225ec4 @ +0xe54
@@ -5685,5 +5668,3 @@ int fcn.803742ac (int esi, int edx) {
          sp += 0x68
 
 }
-
-*/

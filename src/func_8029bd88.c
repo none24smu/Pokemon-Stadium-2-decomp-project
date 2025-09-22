@@ -1,18 +1,3 @@
-/*
- * Function: 0x8029bd88
- * Category: math
- */
-
-// Decompiled C code
-int fcn.802cb7dc (int esi, int edx) {
-// do {
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.802cb7dc (int esi, int edx) {
     loc_0x8029bce8:
         [sp + 0x18] = t1
@@ -558,5 +543,3 @@ int fcn.802cb7dc (int esi, int edx) {
          if                       // fcn.802af804+0x75e4 // unlikely
 
 }
-
-*/

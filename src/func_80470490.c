@@ -1,27 +1,3 @@
-/*
- * Function: 0x80470490
- * Category: math
- */
-
-// Decompiled C code
-int fcn.8047041c (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
             [38;2;197;15;31m[38;2;197;15;31m; XREFS: [38;2;197;15;31mCODE 0x80470150  [38;2;197;15;31mCODE 0x804701ac  [38;2;197;15;31mCODE 0x80470204  [0m
             [38;2;197;15;31m[38;2;197;15;31m; XREFS: [38;2;197;15;31mCODE 0x80470260  [38;2;197;15;31mCODE 0x804702c4  [38;2;197;15;31mCALL 0x83d39f1c  [0m
 [38;2;58;150;221m┌[0m 120: [38;2;197;15;31mfcn.8047041c[0m (int64_t arg_2ch, int64_t arg_30h, int64_t arg_40h, int64_t arg_44h, int64_t arg_48h);
@@ -149,5 +125,3 @@ int fcn.8047041c (int esi, int edx) {
          
 
 }
-
-*/

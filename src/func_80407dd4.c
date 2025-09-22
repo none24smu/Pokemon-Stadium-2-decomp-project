@@ -1,17 +1,3 @@
-/*
- * Function: 0x80407dd4
- * Category: battle
- */
-
-// Decompiled C code
-int fcn.80407d98 (int esi, int edx) {
-// } else {
-}
-return eax;
-}
-
-/*
-// Full radare2 output
             [38;2;197;15;31m[38;2;197;15;31m; CALL XREF from fcn.826129ac @ [38;2;197;15;31m+0x58c[38;2;197;15;31m[0m
 [38;2;58;150;221m┌[0m 100: [38;2;197;15;31mfcn.80407d98[0m (int64_t arg_18h, int64_t arg_1ch, int64_t arg_3ch);
 [38;2;58;150;221m│[0m           [38;2;204;204;204m; [38;2;204;204;204marg [38;2;0;55;218mint64_t arg_18h [38;2;58;150;221m@ sp+0x18[0m
@@ -98,5 +84,3 @@ int fcn.80407d98 (int esi, int edx) {
         }
         return eax;
 }
-
-*/

@@ -1,14 +1,3 @@
-/*
- * Function: 0x8051daf4
- * Category: math
- */
-
-// Decompiled C code
-int fcn.80507018 (int esi, int edx) {
-}
-
-/*
-// Full radare2 output
 int fcn.80507018 (int esi, int edx) {
     loc_0x80507018:
         // CALL XREF from fcn.82b37898 @ +0xf80
@@ -1059,5 +1048,3 @@ int fcn.80507018 (int esi, int edx) {
          ra = [sp + 0x34]
 
 }
-
-*/

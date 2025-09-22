@@ -1,14 +1,3 @@
-/*
- * Function: 0x8017f3c0
- * Category: battle
- */
-
-// Decompiled C code
-int fcn.8017f380 (int esi, int edx) {
-}
-
-/*
-// Full radare2 output
             [38;2;197;15;31m[38;2;197;15;31m; CALL XREF from fcn.8061a8d0 @ [38;2;197;15;31m+0x14c[38;2;197;15;31m[0m
 [38;2;58;150;221m┌[0m 68: [38;2;197;15;31mfcn.8017f380[0m (int64_t arg_18h, int64_t arg_1ch);
 [38;2;58;150;221m│[0m           [38;2;204;204;204m; [38;2;204;204;204marg [38;2;0;55;218mint64_t arg_18h [38;2;58;150;221m@ sp+0x18[0m
@@ -54,5 +43,3 @@ int fcn.8017f380 (int esi, int edx) {
         0x8017f3c0
          // (break)
 }
-
-*/

@@ -1,19 +1,3 @@
-/*
- * Function: 0x802e6778
- * Category: math
- */
-
-// Decompiled C code
-int fcn.82bea63c (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.82bea63c (int esi, int edx) {
     loc_0x8029b004:
         t2 = [s4 + 0] // t9
@@ -9580,5 +9564,3 @@ int fcn.82bea63c (int esi, int edx) {
          sdl s0, 0xa0a, t8
 
 }
-
-*/

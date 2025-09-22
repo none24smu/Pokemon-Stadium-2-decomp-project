@@ -1,18 +1,3 @@
-/*
- * Function: 0x80518cf0
- * Category: math
- */
-
-// Decompiled C code
-int fcn.80508710 (int esi, int edx) {
-// do {
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.80508710 (int esi, int edx) {
     loc_0x80300804:
         // CODE XREFS from fcn.80508710 @ 0x804e0040, 0x804e0144
@@ -43129,5 +43114,3 @@ int fcn.80508710 (int esi, int edx) {
          if                       // unlikely
 
 }
-
-*/

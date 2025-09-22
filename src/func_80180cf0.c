@@ -1,25 +1,3 @@
-/*
- * Function: 0x80180cf0
- * Category: battle
- */
-
-// Decompiled C code
-int fcn.80180c5c (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-return eax;
-}
-
-/*
-// Full radare2 output
             [38;2;197;15;31m[38;2;197;15;31m; CALL XREF from fcn.8251a000 @ [38;2;197;15;31m+0x614[38;2;197;15;31m[0m
 [38;2;58;150;221m┌[0m 300: [38;2;197;15;31mfcn.80180c5c[0m (int64_t arg_18h, int64_t arg_1ch, int64_t arg_20h, int64_t arg_24h, int64_t arg_84h, int64_t arg_88h, int64_t arg_8ah, int64_t arg_90h, int64_t arg_94h);
 [38;2;58;150;221m│[0m           [38;2;204;204;204m; [38;2;204;204;204marg [38;2;0;55;218mint64_t arg_18h [38;2;58;150;221m@ sp+0x18[0m
@@ -212,5 +190,3 @@ int fcn.80180c5c (int esi, int edx) {
          sp += 0x98
 
 }
-
-*/

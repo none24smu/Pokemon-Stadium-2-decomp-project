@@ -1,14 +1,3 @@
-/*
- * Function: 0x801b200c
- * Category: math
- */
-
-// Decompiled C code
-int fcn.801c9fec (int esi, int edx) {
-}
-
-/*
-// Full radare2 output
 int fcn.801c9fec (int esi, int edx) {
     loc_0x801af0f0:
         ret           // ra
@@ -1302,5 +1291,3 @@ int fcn.801c9fec (int esi, int edx) {
          
 
 }
-
-*/

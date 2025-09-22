@@ -1,14 +1,3 @@
-/*
- * Function: 0x80214080
- * Category: math
- */
-
-// Decompiled C code
-int fcn.80214000 (int esi, int edx) {
-}
-
-/*
-// Full radare2 output
             [38;2;197;15;31m[38;2;197;15;31m; CALL XREF from fcn.836c5684 @ [38;2;197;15;31m+0xe30[38;2;197;15;31m[0m
 [38;2;58;150;221m┌[0m 164: [38;2;197;15;31mfcn.80214000[0m (int64_t arg1, int64_t arg2, int64_t arg3, int64_t arg4);
 [38;2;58;150;221m│[0m           [38;2;204;204;204m; [38;2;204;204;204marg [38;2;0;55;218mint64_t arg1 [38;2;58;150;221m@ a0[0m
@@ -128,5 +117,3 @@ int fcn.80214000 (int esi, int edx) {
          mtc1 at, f16
 
 }
-
-*/

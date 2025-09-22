@@ -1,40 +1,3 @@
-/*
- * Function: 0x802bc218
- * Category: math
- */
-
-// Decompiled C code
-int fcn.802afdb0 (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.802afdb0 (int esi, int edx) {
     loc_0x802afdb0:
         // CALL XREF from fcn.82f22e24 @ +0x3d4
@@ -1809,5 +1772,3 @@ int fcn.802afdb0 (int esi, int edx) {
          sp += 0x50
 
 }
-
-*/

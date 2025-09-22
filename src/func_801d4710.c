@@ -1,36 +1,3 @@
-/*
- * Function: 0x801d4710
- * Category: math
- */
-
-// Decompiled C code
-int fcn.82141e94 (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-// } else {
-}
-return eax;
-// } else {
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.82141e94 (int esi, int edx) {
     loc_0x801c9408:
         // CODE XREF from loc.8212c8b8 @ +0x808
@@ -1151,5 +1118,3 @@ int fcn.82141e94 (int esi, int edx) {
          beql at, k1, 0x82164f90  // unlikely
 
 }
-
-*/

@@ -1,28 +1,3 @@
-/*
- * Function: 0x8043e13c
- * Category: math
- */
-
-// Decompiled C code
-int fcn.8043df28 (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
             [38;2;197;15;31m[38;2;197;15;31m; CALL XREF from fcn.80f59a4c @ [38;2;197;15;31m+0x2204[38;2;197;15;31m[0m
 [38;2;58;150;221m┌[0m 456: [38;2;197;15;31mfcn.8043df28[0m (int64_t arg_14h, int64_t arg_18h, int64_t arg_1ch);
 [38;2;58;150;221m│[0m           [38;2;204;204;204m; [38;2;204;204;204marg [38;2;0;55;218mint64_t arg_14h [38;2;58;150;221m@ sp+0x14[0m
@@ -323,5 +298,3 @@ int fcn.8043df28 (int esi, int edx) {
          byte [s0 + 0x32] = t6
 
 }
-
-*/

@@ -1,23 +1,3 @@
-/*
- * Function: 0x801ee080
- * Category: math
- */
-
-// Decompiled C code
-int fcn.801f7004 (int esi, int edx) {
-// } else {
-// } else {
-// } else {
-}
-return eax;
-// do {
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.801f7004 (int esi, int edx) {
     loc_0x801eae3c:
         bnel at, 0, 0x801eaed8 // likely
@@ -4125,5 +4105,3 @@ int fcn.801f7004 (int esi, int edx) {
          halfword [t9 + 0x4c] = t8
 
 }
-
-*/

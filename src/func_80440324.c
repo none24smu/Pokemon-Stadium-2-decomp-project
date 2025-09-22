@@ -1,18 +1,3 @@
-/*
- * Function: 0x80440324
- * Category: math
- */
-
-// Decompiled C code
-int fcn.8045664c (int esi, int edx) {
-// do {
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.8045664c (int esi, int edx) {
     loc_0x80435698:
         mul.s f6, f14, f4
@@ -11308,5 +11293,3 @@ int fcn.8045664c (int esi, int edx) {
          goto 0x8045adb4          // fcn.8045ad3c+0x78
 
 }
-
-*/

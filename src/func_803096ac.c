@@ -1,19 +1,3 @@
-/*
- * Function: 0x803096ac
- * Category: math
- */
-
-// Decompiled C code
-int fcn.80339030 (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.80339030 (int esi, int edx) {
     loc_0x802fbdb8:
         // CODE XREF from fcn.80339030 @ 0x80319f54
@@ -6059,5 +6043,3 @@ int fcn.80339030 (int esi, int edx) {
          [s0 + 8] = s6
 
 }
-
-*/

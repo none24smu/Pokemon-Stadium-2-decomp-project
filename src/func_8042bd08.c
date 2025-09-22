@@ -1,18 +1,3 @@
-/*
- * Function: 0x8042bd08
- * Category: math
- */
-
-// Decompiled C code
-int fcn.80433834 (int esi, int edx) {
-// do {
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.80433834 (int esi, int edx) {
     loc_0x8042bc50:
         lwc1 f0, 4, s0
@@ -1096,5 +1081,3 @@ int fcn.80433834 (int esi, int edx) {
          ra = [sp + 0x14]
 
 }
-
-*/

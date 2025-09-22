@@ -1,17 +1,3 @@
-/*
- * Function: 0x80137ee4
- * Category: battle
- */
-
-// Decompiled C code
-int fcn.80137eb4 (int esi, int edx) {
-// } else {
-}
-return eax;
-}
-
-/*
-// Full radare2 output
             [38;2;197;15;31m[38;2;197;15;31m; CALL XREF from fcn.80dc9d04 @ [38;2;197;15;31m+0x408[38;2;197;15;31m[0m
 [38;2;58;150;221m┌[0m 52: [38;2;197;15;31mfcn.80137eb4[0m (int64_t arg3, int64_t arg_14h, int64_t arg_1ch);
 [38;2;58;150;221m│[0m           [38;2;204;204;204m; [38;2;204;204;204marg [38;2;0;55;218mint64_t arg_14h [38;2;58;150;221m@ sp+0x14[0m
@@ -57,5 +43,3 @@ int fcn.80137eb4 (int esi, int edx) {
         }
         return eax;
 }
-
-*/

@@ -1,67 +1,55 @@
 # Building Pokemon Stadium 2 (Work in Progress)
 
-This repository aims to produce a bit-for-bit matching build of Pokemon Stadium 2 (N64) from source. The build is a scaffold to organize code, assets, and configuration.
-
-Important:
-- The repository does not include any ROMs or copyrighted assets.
-- You must provide your legally obtained ROM in `roms/`.
-- Large extracted assets are generated locally during the build and are not committed to Git.
+This repository aims to produce a bit-for-bit matching build of Pokemon Stadium 2 (N64) from source. The build system is now functional with source code compilation.
 
 ## Prerequisites
 
 - Linux or WSL2
 - make, bash, Python 3.8+
-- N64 toolchain utilities (binutils)
-  - `sudo apt install binutils-mips-linux-gnu`
-- Python packages
-  - `pip3 install splat64`
+- MIPS N64 toolchain
+  - `sudo apt-get install gcc-10-mips-linux-gnu`
 
-## Files/Paths
+## Quick Start
 
-- Place the US ROM at:
-  - `roms/pokemon_stadium_2.z64`
-- Splat configuration:
-  - `splat_configs/pokemon_stadium_2.yaml`
-- Linker script (placeholder):
-  - `linker_scripts/pokemon_stadium_2.ld`
+1. **Place the ROM:**
+   ```bash
+   mkdir -p roms
+   # Place your legally obtained Pokemon Stadium 2 ROM as roms/pokemon_stadium_2.z64
+   ```
 
-## Typical Workflow
+2. **Install Dependencies:**
+   ```bash
+   make setup
+   ```
 
-1) Verify your ROM hash (optional for now)
+3. **Extract Assets:**
+   ```bash
+   make extract-assets
+   ```
 
-```bash
-make rom-info PROJECT_NAME=pokemon_stadium_2
-```
+4. **Build the Project:**
+   ```bash
+   make build
+   ```
+   This compiles all C files in src/ to object files in build/ and links them.
 
-2) Extract/prepare assets (placeholder step, creates folders)
+5. **Verify the Build:**
+   ```bash
+   make verify
+   ```
+   This checks the final ROM SHA1 against expected_sha1.txt.
 
-```bash
-make extract-assets PROJECT_NAME=pokemon_stadium_2
-```
+## Build Targets
 
-3) Split the ROM using splat (WIP)
-
-```bash
-make split PROJECT_NAME=pokemon_stadium_2
-```
-
-4) Build (WIP)
-
-```bash
-make build
-```
-
-5) Verify SHA1 (once a matching build target exists)
-
-```bash
-make verify
-```
-
-- Expects `expected_sha1.txt` in repo root.
-- For now, `verify` checks the provided ROM until the build is fully matching.
+- `make build`: Compile and link all source files
+- `make clean`: Clean build artifacts
+- `make extract-assets`: Extract assets from ROM
+- `make verify`: Verify ROM SHA1
+- `make rom-info`: Show ROM information
 
 ## Notes
 
-- Some steps are placeholders until full matching is in place.
-- No large binary assets should be committed. Assets are generated locally from the baserom.
-- Keep documentation neutral and technical.
+- The build system compiles C files using the MIPS toolchain
+- Assets are generated locally from the ROM and not committed to Git
+- Current status: Source code compilation working with expected warnings
+- Next: Refine segment configuration and add more matching logic

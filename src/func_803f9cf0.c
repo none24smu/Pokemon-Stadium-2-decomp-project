@@ -1,14 +1,3 @@
-/*
- * Function: 0x803f9cf0
- * Category: math
- */
-
-// Decompiled C code
-int fcn.80400480 (int esi, int edx) {
-}
-
-/*
-// Full radare2 output
 int fcn.80400480 (int esi, int edx) {
     loc_0x803ce14c:
         // CODE XREF from fcn.80400480 @ 0x803df5e8
@@ -13149,5 +13138,3 @@ int fcn.80400480 (int esi, int edx) {
          a3 = a1                  // t0
 
 }
-
-*/

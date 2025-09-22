@@ -1,21 +1,3 @@
-/*
- * Function: 0x80379c10
- * Category: math
- */
-
-// Decompiled C code
-int fcn.80398300 (int esi, int edx) {
-// } else {
-// } else {
-// } else {
-// } else {
-// } else {
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.80398300 (int esi, int edx) {
     loc_0x8036cd7c:
         v0 = , unsigned  halfword [a0 + 6]
@@ -7686,5 +7668,3 @@ int fcn.80398300 (int esi, int edx) {
          [at - 0xd58] = t6
 
 }
-
-*/

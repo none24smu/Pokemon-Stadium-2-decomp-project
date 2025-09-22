@@ -1,25 +1,3 @@
-/*
- * Function: 0x803635c8
- * Category: math
- */
-
-// Decompiled C code
-int fcn.8036354c (int esi, int edx) {
-// } else {
-}
-return eax;
-// do {
-// } while (?);
-}
-return eax;
-// do {
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
             [38;2;197;15;31m[38;2;197;15;31m; CALL XREF from fcn.81d302b8 @ [38;2;197;15;31m+0x10c[38;2;197;15;31m[0m
 [38;2;58;150;221m┌[0m 212: [38;2;197;15;31mfcn.8036354c[0m (int64_t arg1, int64_t arg2, int64_t arg_1ch, int64_t arg_20h, int64_t arg_2ch);
 [38;2;58;150;221m│[0m           [38;2;204;204;204m; [38;2;204;204;204marg [38;2;0;55;218mint64_t arg_1ch [38;2;58;150;221m@ sp+0x1c[0m
@@ -160,5 +138,3 @@ int fcn.8036354c (int esi, int edx) {
         }
         return eax;
 }
-
-*/

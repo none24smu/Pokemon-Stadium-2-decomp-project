@@ -1,14 +1,3 @@
-/*
- * Function: 0x8034ebfc
- * Category: math
- */
-
-// Decompiled C code
-int fcn.8031c6d4 (int esi, int edx) {
-}
-
-/*
-// Full radare2 output
 int fcn.8031c6d4 (int esi, int edx) {
     loc_0x802fdcc8:
         // CODE XREF from fcn.80339168 @ 0x8031a1f4
@@ -8175,5 +8164,3 @@ int fcn.8031c6d4 (int esi, int edx) {
          [sp + 0x18] = 0
 
 }
-
-*/

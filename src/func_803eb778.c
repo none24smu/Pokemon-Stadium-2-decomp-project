@@ -1,19 +1,3 @@
-/*
- * Function: 0x803eb778
- * Category: math
- */
-
-// Decompiled C code
-int fcn.803eb75c (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
             [38;2;197;15;31m[38;2;197;15;31m; CALL XREF from fcn.82cf2cf0 @ [38;2;197;15;31m+0x72c[38;2;197;15;31m[0m
 [38;2;58;150;221m┌[0m 200: [38;2;197;15;31mfcn.803eb75c[0m (int64_t arg2, int64_t arg3, int64_t arg4, int64_t arg_10h, int64_t arg_14h, int64_t arg_20h, int64_t arg_30h, int64_t arg_38h, int64_t arg_18h, int64_t arg_48h, int64_t arg_28h, int64_t arg_54h, int64_t arg_58h, int64_t arg_5ch, int64_t arg_60h, int64_t arg_64h, int64_t arg_88h);
 [38;2;58;150;221m│[0m           [38;2;204;204;204m; [38;2;204;204;204marg [38;2;0;55;218mint64_t arg_10h [38;2;58;150;221m@ sp+0x10[0m
@@ -157,5 +141,3 @@ int fcn.803eb75c (int esi, int edx) {
          sp += 0x170
 
 }
-
-*/

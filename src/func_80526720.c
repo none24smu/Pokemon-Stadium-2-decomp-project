@@ -1,20 +1,3 @@
-/*
- * Function: 0x80526720
- * Category: math
- */
-
-// Decompiled C code
-int fcn.804fc430 (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.804fc430 (int esi, int edx) {
     loc_0x804fc430:
         // CALL XREF from fcn.8019c2fc @ +0x2bc
@@ -1582,5 +1565,3 @@ int fcn.804fc430 (int esi, int edx) {
          t7 = ra | 0xfd63
 
 }
-
-*/

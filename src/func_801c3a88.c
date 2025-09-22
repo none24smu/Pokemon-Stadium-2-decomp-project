@@ -1,14 +1,3 @@
-/*
- * Function: 0x801c3a88
- * Category: math
- */
-
-// Decompiled C code
-int fcn.801c3a7c (int esi, int edx) {
-}
-
-/*
-// Full radare2 output
             [38;2;197;15;31m[38;2;197;15;31m; CODE XREF from fcn.801b3ac4 @ [38;2;197;15;31m0x801c3a40[38;2;197;15;31m[0m
             [38;2;197;15;31m[38;2;197;15;31m; CALL XREF from fcn.81dd49d8 @ [38;2;197;15;31m+0x744[38;2;197;15;31m[0m
 [38;2;58;150;221m┌[0m 16: [38;2;197;15;31mfcn.801c3a7c[0m (int64_t arg_18h);
@@ -27,5 +16,3 @@ int fcn.801c3a7c (int esi, int edx) {
         0x801c3a88
          // (break)
 }
-
-*/

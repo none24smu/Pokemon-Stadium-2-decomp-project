@@ -1,25 +1,3 @@
-/*
- * Function: 0x801b21a8
- * Category: math
- */
-
-// Decompiled C code
-int fcn.801c9dc4 (int esi, int edx) {
-// do {
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-// } while (?);
-}
-return eax;
-}
-
-/*
-// Full radare2 output
 int fcn.801c9dc4 (int esi, int edx) {
     loc_0x801a9ddc:
         t1 = fcn.83500000 << 16
@@ -3216,5 +3194,3 @@ int fcn.801c9dc4 (int esi, int edx) {
          
 
 }
-
-*/

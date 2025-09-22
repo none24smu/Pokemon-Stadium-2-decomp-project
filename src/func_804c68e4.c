@@ -1,14 +1,3 @@
-/*
- * Function: 0x804c68e4
- * Category: math
- */
-
-// Decompiled C code
-int fcn.804c6888 (int esi, int edx) {
-}
-
-/*
-// Full radare2 output
             [38;2;197;15;31m[38;2;197;15;31m; CALL XREF from fcn.8283054c @ [38;2;197;15;31m+0x208[38;2;197;15;31m[0m
             [38;2;197;15;31m[38;2;197;15;31m; CALL XREF from fcn.828b4074 @ [38;2;197;15;31m+0x724[38;2;197;15;31m[0m
 [38;2;58;150;221m┌[0m 96: [38;2;197;15;31mfcn.804c6888[0m (int64_t arg_10h, int64_t arg_14h, int64_t arg_18h, int64_t arg_1ch, int64_t arg_20h, int64_t arg_24h, int64_t arg_28h, int64_t arg_2ch, int64_t arg_30h, int64_t arg_34h, int64_t arg_3ch, int64_t arg_5ch);
@@ -78,5 +67,3 @@ int fcn.804c6888 (int esi, int edx) {
         0x804c68e4
          // (break)
 }
-
-*/
