@@ -72,6 +72,18 @@ decompile:
 	python3 $(MIPS_ANALYZER) $(ROM_FILE) analyze $(ADDR)
 
 # Build the project (after decompilation)
+# Compile source files
+$(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
+	$(MIPS_CC) -c $< -o $@ -Iinclude
+# Build individual segments
+build-header: build/header.o
+build-boot: build/boot.o
+build-main: build/main.o
+
+# Link segments
+link: $(BUILD_DIR)/header.o $(BUILD_DIR)/boot.o $(BUILD_DIR)/main.o
+	@echo "Linking segments..."
+	$(MIPS_CC) -nostdlib -T linker_scripts/$(PROJECT_NAME).ld -o $(BUILD_DIR)/$(PROJECT_NAME).elf $^
 build:
 	@echo "Building decompiled project..."
 	@if [ -f "$(BUILD_DIR)/Makefile" ]; then \

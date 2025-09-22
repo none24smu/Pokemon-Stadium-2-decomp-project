@@ -1,1 +1,1 @@
-# Replace this line with the expected SHA1 of the final built ROM (single line, no extra text)
+d8343e69a7dc63b869cf6361d87cde64444281d3

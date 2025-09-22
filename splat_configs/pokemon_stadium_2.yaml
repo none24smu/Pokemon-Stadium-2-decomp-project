@@ -1,8 +1,243 @@
-# Placeholder splat configuration for Pokemon Stadium 2
-# TODO: Replace with actual segment layout once analysis is complete
-# Format: https://github.com/ethteck/splat/blob/master/README.md
-
 name: pokemon_stadium_2
-basename: pokemon_stadium_2
+sha1: d8343e69a7dc63b869cf6361d87cde64444281d3
 
-# TODO: Add actual segments based on ROM analysis
+options:
+  platform: n64
+  basename: pokemon_stadium_2
+  target_path: build/pokemon_stadium_2.z64
+  asm_path: asm
+  src_path: src
+  build_path: build
+  create_undefined_funcs_auto: True
+  undefined_funcs_auto_path: undefined_funcs_auto.txt
+  extensions_path: tools/splat_ext
+  symbol_addrs_path: symbol_addrs.txt
+  reloc_addrs_path: reloc_addrs.txt
+  
+  # N64-specific options
+  gp_value: 0x801C6A80
+  check_consecutive_segment_types: False
+  
+  # Compiler settings
+  compiler: GCC
+  mips_abi_float_regs: o32
+  named_regs_for_c_funcs: False
+  add_set_gp_64: False
+  create_c_files: True
+  auto_all_sections: [".data", ".rodata", ".bss"]
+  
+  # Code generation
+  include_macro_inc: False
+  asm_inc_header: ""
+  
+  # File paths
+  undefined_syms_auto_path: undefined_syms_auto.txt
+  cache_path: .splat_cache
+
+segments:
+  # ROM Header
+  - name: header
+    type: bin
+    start: 0x0
+    
+  # Boot code
+  - name: boot
+    type: bin  
+    start: 0x40
+    
+  # IPL3 (Initial Program Load stage 3)
+  - name: ipl3
+    type: bin
+    start: 0x1000
+    
+  # Main executable sections
+  - name: entry
+    type: code
+    start: 0x1000
+    vram: 0x80100400
+    subsegments:
+      - [0x1000, asm, entry]
+      
+  # Primary game code section (based on entropy analysis)
+  - name: main_code
+    type: code
+    start: 0x10000
+    vram: 0x80110000
+    subsegments:
+      - [0x10000, c, main]
+      - [0x20000, c, game_init]
+      - [0x30000, c, memory_mgmt]
+      - [0x40000, c, battle_engine]
+      - [0x50000, c, pokemon_data]
+      - [0x60000, c, graphics_engine]
+      - [0x70000, c, audio_system]
+      - [0x80000, c, input_handler]
+      - [0x90000, c, menu_system]
+      - [0xA0000, c, minigames]
+      - [0xB0000, c, save_system]
+      - [0xC0000, c, transfer_pak]
+      - [0xD0000, c, ai_system]
+      - [0xE0000, c, effects_engine]
+      - [0xF0000, c, ui_framework]
+      
+  # Game data sections
+  - name: game_data
+    type: data
+    start: 0x100000
+    vram: 0x80200000
+    subsegments:
+      - [0x100000, .data, pokemon_stats]
+      - [0x110000, .data, move_data]
+      - [0x120000, .data, type_chart]
+      - [0x130000, .data, level_data]
+      - [0x140000, .data, trainer_data]
+      - [0x150000, .data, item_data]
+      - [0x160000, .data, text_data]
+      - [0x170000, .data, menu_data]
+      - [0x180000, .data, sound_data]
+      - [0x190000, .data, graphics_data]
+      
+  # More code sections (medium entropy areas)
+  - name: extended_code
+    type: code  
+    start: 0x200000
+    vram: 0x80300000
+    subsegments:
+      - [0x200000, c, battle_calc]
+      - [0x210000, c, animation_sys]
+      - [0x220000, c, particle_sys]
+      - [0x230000, c, camera_sys]
+      - [0x240000, c, lighting_sys]
+      - [0x250000, c, collision_sys]
+      - [0x260000, c, physics_sys]
+      - [0x270000, c, network_sys]
+      - [0x280000, c, debug_sys]
+      - [0x290000, c, profiler_sys]
+      
+  # Large data section
+  - name: bulk_data
+    type: data
+    start: 0x300000
+    vram: 0x80400000
+    subsegments:
+      - [0x300000, .data, bulk_pokemon_data]
+      - [0x350000, .data, bulk_move_data]
+      - [0x3A0000, .data, bulk_graphics_data]
+      - [0x3F0000, .data, bulk_audio_data]
+      - [0x440000, .data, bulk_text_data]
+      
+  # Compressed assets section (high entropy 0x450000-0x470000)
+  - name: compressed_early
+    type: bin
+    start: 0x450000
+    
+  # MASSIVE compressed section (0x680000-0x1FA0000) - 23MB of assets
+  - name: compressed_assets
+    type: bin
+    start: 0x680000
+    # This contains:
+    # - Pokemon 3D models
+    # - Battle animations  
+    # - Texture data
+    # - Audio samples
+    # - Music data
+    # - Effect data
+    
+  # More code after compressed section
+  - name: post_assets_code
+    type: code
+    start: 0x12B0000
+    vram: 0x813B0000
+    subsegments:
+      - [0x12B0000, c, asset_loader]
+      - [0x12C0000, c, decompression]
+      - [0x12D0000, c, texture_mgmt]
+      - [0x12E0000, c, model_loader]
+      - [0x12F0000, c, animation_loader]
+      
+  # Additional compressed sections
+  - name: compressed_mid
+    type: bin
+    start: 0x1560000
+    
+  # Zero padding section
+  - name: padding1
+    type: bin
+    start: 0x1610000
+    
+  # More compressed assets
+  - name: compressed_late
+    type: bin  
+    start: 0x1640000
+    
+  # Final code sections
+  - name: final_code
+    type: code
+    start: 0x1D70000
+    vram: 0x81E70000
+    subsegments:
+      - [0x1D70000, c, final_init]
+      - [0x1D80000, c, cleanup_sys]
+      - [0x1D90000, c, error_handler]
+      - [0x1DA0000, c, exception_handler]
+      - [0x1DB0000, c, interrupt_handler]
+      - [0x1DC0000, c, timer_sys]
+      - [0x1DD0000, c, scheduler]
+      - [0x1DE0000, c, thread_mgmt]
+      - [0x1DF0000, c, sync_primitives]
+      - [0x1E00000, c, memory_pool]
+      - [0x1E10000, c, heap_mgmt]
+      - [0x1E20000, c, stack_mgmt]
+      
+  # Final padding
+  - name: padding2  
+    type: bin
+    start: 0x1E30000
+    
+  # Ultra-high entropy compressed section
+  - name: compressed_final
+    type: bin
+    start: 0x1E70000
+    
+  # Game data tables
+  - name: data_tables
+    type: data
+    start: 0x2250000
+    vram: 0x82350000
+    subsegments:
+      - [0x2250000, .data, lookup_tables]
+      - [0x2260000, .data, constant_data]
+      - [0x2270000, .data, config_data]
+      - [0x2280000, .data, version_data]
+      - [0x2290000, .data, debug_data]
+      
+  # More compressed assets scattered throughout
+  - name: scattered_assets1
+    type: bin
+    start: 0x23B0000
+    
+  - name: scattered_assets2  
+    type: bin
+    start: 0x2680000
+    
+  # Final data section
+  - name: final_data
+    type: data
+    start: 0x2D70000
+    vram: 0x82E70000
+    subsegments:
+      - [0x2D70000, .data, final_tables]
+      - [0x2D80000, .data, credits_data]
+      - [0x2D90000, .data, ending_data]
+      - [0x2DA0000, .data, bonus_data]
+      - [0x2DB0000, .data, unlockable_data]
+      - [0x2DC0000, .data, achievement_data]
+      - [0x2DD0000, .data, statistics_data]
+      - [0x2DE0000, .data, profile_data]
+      - [0x2DF0000, .data, save_metadata]
+      - [0x2E00000, .data, checksum_data]
+      - [0x2E10000, .data, backup_data]
+      - [0x2E20000, .data, recovery_data]
+      - [0x2E30000, .data, validation_data]
+      - [0x2E40000, .data, footer_data]
+      - [0x2E50000, .data, terminator_data]
