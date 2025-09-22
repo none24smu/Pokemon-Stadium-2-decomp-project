@@ -1,0 +1,51 @@
+# ROM files (never commit copyrighted content)
+roms/*.z64
+roms/*.n64
+roms/*.v64
+roms/*.rom
+roms/*.bin
+!roms/.gitkeep
+
+# Extracted assets (generated locally)
+extracted/*
+!extracted/.gitkeep
+assets/*
+!assets/.gitkeep
+
+# Build artifacts
+build/*
+!build/.gitkeep
+*.o
+*.elf
+*.map
+*.bin
+*.hex
+
+# Analysis outputs (regenerable)
+analysis/temp/
+*.log
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# Temporary
+*.tmp
+*.temp
+.cache/

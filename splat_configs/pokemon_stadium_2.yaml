@@ -1,0 +1,8 @@
+# Placeholder splat configuration for Pokemon Stadium 2
+# TODO: Replace with actual segment layout once analysis is complete
+# Format: https://github.com/ethteck/splat/blob/master/README.md
+
+name: pokemon_stadium_2
+basename: pokemon_stadium_2
+
+# TODO: Add actual segments based on ROM analysis

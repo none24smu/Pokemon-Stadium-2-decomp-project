@@ -1,0 +1,3 @@
+# Placeholder for symbol address mappings
+# Format examples:
+# symbol_name = 0x80001234
